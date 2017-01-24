@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/h/u12/c5/00/chenqi38/csc258/Lab2
+vfourmux
+Z1 !s110 1485289511
+!i10b 1
+!s100 m2mXHELPSKJ2zgni`o`1E1
+ITDzWVGWh4<lSb[PbkXH]`0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1485288868
+Z4 8fourmux.v
+Z5 Ffourmux.v
+L0 7
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1485289511.000000
+Z8 !s107 fourmux.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|fourmux.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+vmux
+!s110 1485288593
+!i10b 1
+!s100 cdR_1YenO8Tj:kQjco8Hj0
+IcXRn8;kEGfzi07?e?jQ>d0
+R2
+R0
+w1485285339
+8mux.v
+Fmux.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1485288593.000000
+!s107 mux.v|
+!s90 -reportprogress|300|-timescale|1ns/1ns|mux.v|
+!i113 1
+R10
+vmux2to1
+R1
+!i10b 1
+!s100 ZLKBLa@m`fHC<H@A1??ln2
+I]kHD8D^Na2V9;BRP2ja^N3
+R2
+R0
+R3
+R4
+R5
+L0 34
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

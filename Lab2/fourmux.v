@@ -4,7 +4,7 @@
 
 //LEDR[0] output display
 
-module 4to1mux(LEDR, SW);
+module fourmux(LEDR, SW);
     input [9:0] SW;
     output [9:0] LEDR;
     wire uov, wox;
