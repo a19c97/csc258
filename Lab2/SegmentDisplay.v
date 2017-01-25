@@ -72,10 +72,10 @@ module seg1(c0, c1, c2, c3, seg1);
     input c2;
     input c3;
     output seg1;
-    assign seg1 = (~c3 & c2 & ~c1 & c0) j
-    (c3 & c2 & ~c1 & ~c0) j
-    (c3 & c2 & c1) j
-    (c2 & c1 & ~c0) j
+    assign seg1 = (~c3 & c2 & ~c1 & c0) |
+    (c3 & c2 & ~c1 & ~c0) |
+    (c3 & c2 & c1) |
+    (c2 & c1 & ~c0) |
     (c3 & c1 & ~c0);
 endmodule
 
@@ -85,8 +85,8 @@ module seg2(c0, c1, c2, c3, seg2);
     input c2;
     input c3;
     output seg2;
-    assign seg2 = (c3 & c2 & ~c1 & ~c0) j
-    (~c3 & ~c2 & c1 & ~c0) j
+    assign seg2 = (c3 & c2 & ~c1 & ~c0) |
+    (~c3 & ~c2 & c1 & ~c0) |
     (c3 & c2 & c1);
 endmodule
 
@@ -96,9 +96,9 @@ module seg3(c0, c1, c2, c3, seg3);
     input c2;
     input c3;
     output seg3;
-    assign seg3 = (~c3 & c2 & ~c1 & ~c0) j
-    (~c2 & ~c1 & c0) j
-    (c2 & c1 & c0) j
+    assign seg3 = (~c3 & c2 & ~c1 & ~c0) |
+    (~c2 & ~c1 & c0) |
+    (c2 & c1 & c0) |
     (c3 & ~c2 & c1 & ~c0);
 endmodule
 
@@ -108,8 +108,8 @@ module seg4(c0, c1, c2, c3, seg4);
     input c2;
     input c3;
     output seg4;
-    assign seg4 = (~c3 & c0) j
-    (~c3 & c2 & ~c1) j
+    assign seg4 = (~c3 & c0) |
+    (~c3 & c2 & ~c1) |
     (~c2 & ~c1 & c0);
 endmodule
 
@@ -119,8 +119,8 @@ module seg5(c0, c1, c2, c3, seg5);
     input c2;
     input c3;
     output seg5;
-    assign seg5 = (~c3 & ~c2 & c0) j
-    (~c3 & c1 & c0) j
+    assign seg5 = (~c3 & ~c2 & c0) |
+    (~c3 & c1 & c0) |
     (~c3 & ~c2 & c1);
 endmodule
 
@@ -130,7 +130,7 @@ module seg6(c0, c1, c2, c3, seg6);
     input c2;
     input c3;
     output seg6;
-    assign seg6 = (~c3 & ~c2 & ~c1) j
-    (c3 & c2 & ~c1 & ~c0) j
+    assign seg6 = (~c3 & ~c2 & ~c1) |
+    (c3 & c2 & ~c1 & ~c0) |
     (~c3 & c2 & c1 & c0);
 endmodule
