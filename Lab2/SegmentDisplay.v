@@ -74,9 +74,9 @@ module seg1(c0, c1, c2, c3, seg1);
     output seg1;
     assign seg1 = (~c3 & c2 & ~c1 & c0) |
     (c3 & c2 & ~c1 & ~c0) |
-    (c3 & c2 & c1) |
+    (c3 & c1 & c0) |
     (c2 & c1 & ~c0) |
-    (c3 & c1 & ~c0);
+    (c3 & c2 & c1);
 endmodule
 
 module seg2(c0, c1, c2, c3, seg2);
@@ -97,7 +97,7 @@ module seg3(c0, c1, c2, c3, seg3);
     input c3;
     output seg3;
     assign seg3 = (~c3 & c2 & ~c1 & ~c0) |
-    (~c2 & ~c1 & c0) |
+    (!c3 & ~c2 & ~c1 & c0) |
     (c2 & c1 & c0) |
     (c3 & ~c2 & c1 & ~c0);
 endmodule
