@@ -6,6 +6,7 @@
 module alu(LEDR, SW, KEY, HEX);
      input [7:0] SW;
      input [2:0] KEY;
+     output [7:0] LEDR;
      output [6:0] HEX0;
      output [6:0] HEX2;
 
@@ -84,8 +85,8 @@ module op3(a, b, o);
     input [3:0] a;
     input [3:0] b;
     output [7:0] o;
-    assign o[0:3] = a | b;
-    assign o[4:7] = a ^ b;
+    assign o[3:0] = a | b;
+    assign o[7:4] = a ^ b;
 endmodule;
 
 //reductive or either A or B
