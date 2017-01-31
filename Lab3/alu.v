@@ -3,7 +3,7 @@
 //LEDR[7:0] output display - binary
 //HEX0, HEX2 output display - 7-seg
 
-module alu(LEDR, SW, KEY, HEX);
+module alu(LEDR, SW, KEY, HEX0, HEX2);
      input [7:0] SW;
      input [2:0] KEY;
      output [7:0] LEDR;
