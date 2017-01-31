@@ -6,13 +6,19 @@ module ripple(LEDR, SW);
     input [8:0] SW;
     output [4:0] LEDR;
     wire w1, w2, w3;
+    wire [3:0] s;
+
+    assign LEDR[0] = s[0];
+    assign LEDR[1] = s[1];
+    assign LEDR[2] = s[2];
+    assign LEDR[3] = s[3];
 
     fullAdder fa0(
         .a(SW[0]),
         .b(SW[4]),
         .cin(SW[8]),
         .cout(w1),
-        .s(LEDR[0])
+        .s(s[0])
         );
 
     fullAdder fa1(
@@ -20,7 +26,7 @@ module ripple(LEDR, SW);
         .b(SW[5]),
         .cin(w1),
         .cout(w2),
-        .s(LEDR[1])
+        .s(s[1])
         );
 
     fullAdder fa2(
@@ -28,7 +34,7 @@ module ripple(LEDR, SW);
         .b(SW[6]),
         .cin(w2),
         .cout(w3),
-        .s(LEDR[2])
+        .s(s[2])
         );
 
     fullAdder fa3(
@@ -36,7 +42,7 @@ module ripple(LEDR, SW);
         .b(SW[7]),
         .cin(w3),
         .cout(LEDR[4]),
-        .s(LEDR[3])
+        .s(s[3])
         );
 
 endmodule
