@@ -64,3 +64,9 @@ module vadder(a, b, s);
     output s;
     assign s = a + b;
 endmodule;
+
+module op3(a, b, o);
+    input a;
+    input b;
+    
+endmodule;
