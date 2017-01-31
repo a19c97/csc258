@@ -5,7 +5,7 @@
 
 module mux7to1(LEDR, SW);
     input [9:0] SW;
-    output [1:0] LEDR;
+    output [9:0] LEDR;
 
     wire [6:0] Input;
     wire [2:0] MuxSelect;
@@ -25,17 +25,17 @@ module mux7to1(LEDR, SW);
     always @(*)
     begin
         case (MuxSelect[2:0])
-            3 ' b000 : Out = Input[0];
-            3 ' b001 : Out = Input[1];
-            3 ' b010 : Out = Input[2];
-            3 ' b011 : Out = Input[3]
-            3 ' b100 : Out = Input[4];
-            3 ' b101 : Out = Input[5];
-            3 ' b110 : Out = Input[6];
+            3'b000 : Out = Input[0];
+            3'b001 : Out = Input[1];
+            3'b010 : Out = Input[2];
+            3'b011 : Out = Input[3];
+            3'b100 : Out = Input[4];
+            3'b101 : Out = Input[5];
+            3'b110 : Out = Input[6];
             default : Out = 1'b1; // What should the default case be?
         endcase
     end
 
-    assign Out  = LEDR[0];
+    assign LEDR[0] = Out;
 
 endmodule;

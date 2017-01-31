@@ -8,26 +8,46 @@ z2
 !i10f 100
 cModel Technology
 Z0 d/h/u12/c5/00/chenqi38/csc258/Lab2
-vfourmux
-Z1 !s110 1485289511
+vdisplay
+Z1 !s110 1485316956
 !i10b 1
-!s100 m2mXHELPSKJ2zgni`o`1E1
-ITDzWVGWh4<lSb[PbkXH]`0
+!s100 M55R[4e58MnMUDOSPd6oe3
+I]VmzWnk?Y8a62dZDVjWlY2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1485288868
-Z4 8fourmux.v
-Z5 Ffourmux.v
-L0 7
+Z3 w1485316914
+Z4 8SegmentDisplay.v
+Z5 FSegmentDisplay.v
+L0 4
 Z6 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z7 !s108 1485289511.000000
-Z8 !s107 fourmux.v|
-Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|fourmux.v|
+Z7 !s108 1485316955.000000
+Z8 !s107 SegmentDisplay.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|SegmentDisplay.v|
 !i113 1
 Z10 o-timescale 1ns/1ns
+vfourmux
+Z11 !s110 1485888573
+!i10b 1
+!s100 m2mXHELPSKJ2zgni`o`1E1
+ITDzWVGWh4<lSb[PbkXH]`0
+R2
+R0
+Z12 w1485288868
+Z13 8fourmux.v
+Z14 Ffourmux.v
+L0 7
+R6
+r1
+!s85 0
+31
+Z15 !s108 1485888573.000000
+Z16 !s107 fourmux.v|
+Z17 !s90 -reportprogress|300|-timescale|1ns/1ns|fourmux.v|
+!i113 1
+R10
 vmux
 !s110 1485288593
 !i10b 1
@@ -49,16 +69,156 @@ r1
 !i113 1
 R10
 vmux2to1
-R1
+R11
 !i10b 1
 !s100 ZLKBLa@m`fHC<H@A1??ln2
 I]kHD8D^Na2V9;BRP2ja^N3
 R2
 R0
+R12
+R13
+R14
+L0 34
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+vseg0
+R1
+!i10b 1
+!s100 ]z<_VYG4zD^1;l6_N3GEf1
+IMEImL1UoeRNS_=E0X>S[f3
+R2
+R0
 R3
 R4
 R5
-L0 34
+L0 59
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vseg1
+R1
+!i10b 1
+!s100 M<MGhl27MWifb7Jj=<98]2
+ICG9_niE33S14h;VloS__n0
+R2
+R0
+R3
+R4
+R5
+L0 69
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vseg2
+R1
+!i10b 1
+!s100 2h<G2E2;zd[]7;bz^H7NC3
+IKB]i00II:VcT178l7`8Qc0
+R2
+R0
+R3
+R4
+R5
+L0 82
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vseg3
+R1
+!i10b 1
+!s100 7^c[77OadEMBGS@YXX?UP3
+I4[Ag1[8DLK6`P5Co0jJHe2
+R2
+R0
+R3
+R4
+R5
+L0 93
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vseg4
+R1
+!i10b 1
+!s100 zakM@7=7jP`iai@U>E;2W0
+IkG2lZe0Uj1iYMizZZfJ8h1
+R2
+R0
+R3
+R4
+R5
+L0 105
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vseg5
+R1
+!i10b 1
+!s100 6S3AeIWJFJPS@=P0Vi]SQ0
+IA6CL]Bd=:^K3PkD2fkYiC3
+R2
+R0
+R3
+R4
+R5
+L0 116
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vseg6
+R1
+!i10b 1
+!s100 ZXfAzH6>]dh_BFGhz>=3n3
+IZE:Qk<BF9Y;`dQQbOgi3M3
+R2
+R0
+R3
+R4
+R5
+L0 127
 R6
 r1
 !s85 0

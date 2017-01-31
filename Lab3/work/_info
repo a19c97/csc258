@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/h/u12/c5/00/chenqi38/csc258/Lab3
+vfullAdder
+Z1 !s110 1485895596
+!i10b 1
+!s100 ];]<7l>O1Qg[KRS:al9]l0
+I2H96ZJZceUG7dA1h;dR`?2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1485894036
+Z4 8ripple.v
+Z5 Fripple.v
+L0 44
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1485895596.000000
+Z8 !s107 ripple.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|ripple.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+nfull@adder
+vmux7to1
+!s110 1485895477
+!i10b 1
+!s100 4`YZ6>h;BlI6Qc::jdHFR1
+IYe31AKD3c6J2XF2;A8]4d2
+R2
+R0
+w1485895296
+8mux7to1.v
+Fmux7to1.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1485895477.000000
+!s107 mux7to1.v|
+!s90 -reportprogress|300|-timescale|1ns/1ns|mux7to1.v|
+!i113 1
+R10
+vripple
+R1
+!i10b 1
+!s100 lfBZ[=>nX;Z?lKn_:VAg_1
+IFik_Me>UmRWSM18R@YHnA2
+R2
+R0
+R3
+R4
+R5
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
