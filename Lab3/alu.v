@@ -39,6 +39,18 @@ module alu(LEDR, SW, KEY, HEX);
           .s(out2)
      );
 
+     redOr o4(
+          .a(A),
+          .b(B),
+          .o(out4)
+     );
+
+     concat o5(
+          .a(A),
+          .b(B),
+          .o(out5)
+     );
+
      reg [7:0] ALUout;
      always @(*)
      begin
@@ -58,15 +70,36 @@ module alu(LEDR, SW, KEY, HEX);
      // assign HEX2
 endmodule;
 
+//A + B using the verilog +
 module vadder(a, b, s);
-    input a;
-    input b;
-    output s;
-    assign s = a + b;
+    input [3:0]a;
+    input [3:0]b;
+    output [7:0] s;
+    assign s[4:0] = a + b;
+    assign s[7:5] = 3'b000;
 endmodule;
 
+//A xor B in the lower four bits, A or B in the upper four bits
 module op3(a, b, o);
+    input [3:0] a;
+    input [3:0] b;
+    output [7:0] o;
+    assign o[0:3] = a | b;
+    assign o[4:7] = a ^ b;
+endmodule;
+
+//reductive or either A or B
+module redOr(a, b, o);
     input a;
     input b;
-    
+    output o;
+    assign o = (| a) | (| b);
+endmodule;
+
+//A left most four bits, B right most four bits
+module concat(a, b, o);
+    input a;
+    input b;
+    output o;
+    assign o = {a, b};
 endmodule;
