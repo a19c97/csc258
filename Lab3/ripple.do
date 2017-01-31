@@ -16,5 +16,4 @@ force {SW[5]} 0
 force {SW[6]} 0
 force {SW[7]} 0
 force {SW[8]} 0
-force {SW[9]} 0
 run 10ns
