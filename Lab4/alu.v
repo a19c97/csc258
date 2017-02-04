@@ -16,7 +16,7 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 		wire clock;
 		wire reset_n;
 
-		assign clock = KEY[0];
+		assign clock = ~ KEY[0];
 		assign reset_n = SW[9];
 
     assign a[0] = SW[0];
@@ -125,9 +125,16 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 								Out = {four_zero, a_times_b_out}
             default:
 								Out[0] = 0;
-
         endcase
     end
+
+		always @(posedge clock)
+		begin
+				if (reset_n == 1'b0)
+						Out <= 8'b00000000;
+				else
+						// What???
+		end
 
     wire [6:0] hex_0_out;
     wire [6:0] hex_1_out;
