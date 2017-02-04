@@ -1,292 +1,396 @@
-cd Lab3
+pwd
+# /h/u12/c5/00/chenqi38/csc258
+cd Lab4
+ls
+# alu.do
+# alu.v
+do alu.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:24:33 on Feb 04,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# ** Error: alu.v(27): (vlog-2730) Undefined variable: 'Out'.
+# ** Error: (vlog-13069) alu.v(33): near "assign": syntax error, unexpected assign, expecting ';' or ','.
+# ** Error: (vlog-13069) alu.v(85): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) alu.v(90): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error (suppressible): alu.v(105): (vlog-2388) 'Out' already declared in this scope (alu).
+# ** Error: (vlog-13069) alu.v(126): near "default": syntax error, unexpected default, expecting ';'.
+# ** Error: (vlog-13069) alu.v(137): near "end": syntax error, unexpected end.
+# ** Error: alu.v(147): (vlog-2730) Undefined variable: 'hex_0_out'.
+# ** Error: alu.v(149): Checker 'hex' not found. Instantiation 'hex_0' must be of a visible checker.
+# ** Error: alu.v(152): (vlog-2730) Undefined variable: 'hex_1_out'.
+# ** Error: alu.v(154): Checker 'hex' not found. Instantiation 'hex_1' must be of a visible checker.
+# ** Error: alu.v(157): (vlog-2730) Undefined variable: 'hex_2_out'.
+# ** Error: alu.v(159): Checker 'hex' not found. Instantiation 'hex_2' must be of a visible checker.
+# ** Error: alu.v(162): (vlog-2730) Undefined variable: 'hex_3_out'.
+# ** Error: alu.v(164): Checker 'hex' not found. Instantiation 'hex_3' must be of a visible checker.
+# ** Error: alu.v(167): (vlog-2730) Undefined variable: 'hex_4_out'.
+# ** Error: alu.v(169): Checker 'hex' not found. Instantiation 'hex_4' must be of a visible checker.
+# ** Error: alu.v(172): (vlog-2730) Undefined variable: 'hex_5_out'.
+# ** Error: alu.v(174): Checker 'hex' not found. Instantiation 'hex_5' must be of a visible checker.
+# ** Error: alu.v(176): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(177): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(178): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(179): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(180): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(181): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(182): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(183): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(185): LHS in procedural continuous assignment may not be a net: HEX0.
+# ** Error: alu.v(186): LHS in procedural continuous assignment may not be a net: HEX1.
+# ** Error: alu.v(187): LHS in procedural continuous assignment may not be a net: HEX2.
+# ** Error: alu.v(188): LHS in procedural continuous assignment may not be a net: HEX3.
+# ** Error: alu.v(189): LHS in procedural continuous assignment may not be a net: HEX4.
+# ** Error: alu.v(190): LHS in procedural continuous assignment may not be a net: HEX5.
+# ** Error: (vlog-13069) alu.v(191): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(213): (vlog-2730) Undefined variable: 'in_1'.
+# ** Error: alu.v(213): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(214): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(215): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(216): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(218): (vlog-2730) Undefined variable: 'in_2'.
+# ** Error: alu.v(218): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(219): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(220): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(221): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(223): (vlog-2730) Undefined variable: 'c_in'.
+# ** Error: alu.v(223): (vlog-2730) Undefined variable: 'in_3'.
+# ** Error: alu.v(223): LHS in procedural continuous assignment may not be a net: c_in.
+# ** Error: alu.v(226): (vlog-2730) Undefined variable: 's_0'.
+# ** Error: alu.v(227): (vlog-2730) Undefined variable: 'c_1'.
+# ** Error: alu.v(231): Checker 'full_adder' not found. Instantiation 'fa_0' must be of a visible checker.
+# ** Error: alu.v(234): (vlog-2730) Undefined variable: 's_1'.
+# ** Error: alu.v(235): (vlog-2730) Undefined variable: 'c_2'.
+# ** Error: alu.v(239): Checker 'full_adder' not found. Instantiation 'fa_1' must be of a visible checker.
+# ** Error: alu.v(242): (vlog-2730) Undefined variable: 's_2'.
+# ** Error: alu.v(243): (vlog-2730) Undefined variable: 'c_3'.
+# ** Error: alu.v(247): Checker 'full_adder' not found. Instantiation 'fa_2' must be of a visible checker.
+# ** Error: alu.v(250): (vlog-2730) Undefined variable: 's_3'.
+# ** Error: alu.v(251): (vlog-2730) Undefined variable: 'c_out'.
+# ** Error: alu.v(255): Checker 'full_adder' not found. Instantiation 'fa_3' must be of a visible checker.
+# ** Error: alu.v(257): (vlog-2730) Undefined variable: 'out'.
+# ** Error: alu.v(257): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(258): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(259): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(260): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(262): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: (vlog-13069) alu.v(264): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(276): (vlog-2730) Undefined variable: 'a_xor_b'.
+# ** Error: alu.v(276): LHS in procedural continuous assignment may not be a net: a_xor_b.
+# ** Error: alu.v(280): (vlog-2730) Undefined variable: 'c_i'.
+# ** Error: alu.v(282): (vlog-2730) Undefined variable: 'c_o'.
+# ** Error: alu.v(283): Checker 'mux2to1' not found. Instantiation 'mux' must be of a visible checker.
+# ** Error: alu.v(285): (vlog-2730) Undefined variable: 's'.
+# ** Error: alu.v(285): LHS in procedural continuous assignment may not be a net: s.
+# ** Error: (vlog-13069) alu.v(287): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'm'.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'y'.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'x'.
+# ** Error: alu.v(296): LHS in procedural continuous assignment may not be a net: m.
+# ** Error: (vlog-13069) alu.v(298): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(305): (vlog-2730) Undefined variable: 'in'.
+# ** Error: alu.v(308): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(313): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(317): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(322): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(326): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(331): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(335): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: (vlog-13069) alu.v(337): near "endmodule": syntax error, unexpected endmodule.
+# End time: 16:24:34 on Feb 04,2017, Elapsed time: 0:00:01
+# Errors: 88, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./alu.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns alu.v"
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 20:37:29 on Jan 31,2017
+# Start time: 16:25:44 on Feb 04,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
-# ** Warning: alu.v(204): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module vadder
-# ** Warning: alu.v(213): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module op3
-# ** Warning: alu.v(222): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module redOr
-# ** Warning: alu.v(230): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module concat
-# ** Warning: alu.v(238): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module ripple
-# -- Compiling module fullAdder
-# -- Compiling module seg0
-# -- Compiling module seg1
-# -- Compiling module seg2
-# -- Compiling module seg3
-# -- Compiling module seg4
-# -- Compiling module seg5
-# -- Compiling module seg6
-# 
-# Top level modules:
-# 	alu
-# End time: 20:37:29 on Jan 31,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 5
-# vsim alu 
-# Start time: 20:37:29 on Jan 31,2017
-# Loading work.alu
-# Loading work.ripple
-# Loading work.fullAdder
-# Loading work.vadder
-# Loading work.op3
-# Loading work.redOr
-# Loading work.concat
-# Loading work.seg0
-# Loading work.seg1
-# Loading work.seg2
-# Loading work.seg3
-# Loading work.seg4
-# Loading work.seg5
-# Loading work.seg6
-# ** Warning: (vsim-3015) alu.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r0 File: alu.v
-# ** Warning: (vsim-3015) alu.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r1 File: alu.v
-# ** Error: (vsim-3063) alu.v(124): Port 'seg0' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s3a File: alu.v
-# ** Error: (vsim-3063) alu.v(131): Port 'seg1' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s4a File: alu.v
-# ** Error: (vsim-3063) alu.v(138): Port 'seg2' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s5a File: alu.v
-# ** Error: (vsim-3063) alu.v(145): Port 'seg2' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s6a File: alu.v
-# ** Error: (vsim-3063) alu.v(168): Port 'seg0' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s2b File: alu.v
-# ** Error: (vsim-3063) alu.v(175): Port 'seg1' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s3b File: alu.v
-# ** Error: (vsim-3063) alu.v(182): Port 'seg0' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s4b File: alu.v
-# ** Error: (vsim-3063) alu.v(189): Port 'seg1' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s5b File: alu.v
-# ** Error: (vsim-3063) alu.v(196): Port 'seg1' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s6b File: alu.v
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./alu.do PAUSED at line 3
+# ** Error: (vlog-13069) alu.v(35): near "assign": syntax error, unexpected assign, expecting ';' or ','.
+# ** Error: (vlog-13069) alu.v(87): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) alu.v(92): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) alu.v(126): near "default": syntax error, unexpected default, expecting ';'.
+# ** Error: (vlog-13069) alu.v(137): near "end": syntax error, unexpected end.
+# ** Error: alu.v(147): (vlog-2730) Undefined variable: 'hex_0_out'.
+# ** Error: alu.v(149): Checker 'hex' not found. Instantiation 'hex_0' must be of a visible checker.
+# ** Error: alu.v(152): (vlog-2730) Undefined variable: 'hex_1_out'.
+# ** Error: alu.v(154): Checker 'hex' not found. Instantiation 'hex_1' must be of a visible checker.
+# ** Error: alu.v(157): (vlog-2730) Undefined variable: 'hex_2_out'.
+# ** Error: alu.v(159): Checker 'hex' not found. Instantiation 'hex_2' must be of a visible checker.
+# ** Error: alu.v(162): (vlog-2730) Undefined variable: 'hex_3_out'.
+# ** Error: alu.v(164): Checker 'hex' not found. Instantiation 'hex_3' must be of a visible checker.
+# ** Error: alu.v(167): (vlog-2730) Undefined variable: 'hex_4_out'.
+# ** Error: alu.v(169): Checker 'hex' not found. Instantiation 'hex_4' must be of a visible checker.
+# ** Error: alu.v(172): (vlog-2730) Undefined variable: 'hex_5_out'.
+# ** Error: alu.v(174): Checker 'hex' not found. Instantiation 'hex_5' must be of a visible checker.
+# ** Error: alu.v(176): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(177): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(178): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(179): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(180): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(181): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(182): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(183): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(185): LHS in procedural continuous assignment may not be a net: HEX0.
+# ** Error: alu.v(186): LHS in procedural continuous assignment may not be a net: HEX1.
+# ** Error: alu.v(187): LHS in procedural continuous assignment may not be a net: HEX2.
+# ** Error: alu.v(188): LHS in procedural continuous assignment may not be a net: HEX3.
+# ** Error: alu.v(189): LHS in procedural continuous assignment may not be a net: HEX4.
+# ** Error: alu.v(190): LHS in procedural continuous assignment may not be a net: HEX5.
+# ** Error: (vlog-13069) alu.v(191): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(213): (vlog-2730) Undefined variable: 'in_1'.
+# ** Error: alu.v(213): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(214): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(215): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(216): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(218): (vlog-2730) Undefined variable: 'in_2'.
+# ** Error: alu.v(218): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(219): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(220): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(221): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(223): (vlog-2730) Undefined variable: 'c_in'.
+# ** Error: alu.v(223): (vlog-2730) Undefined variable: 'in_3'.
+# ** Error: alu.v(223): LHS in procedural continuous assignment may not be a net: c_in.
+# ** Error: alu.v(226): (vlog-2730) Undefined variable: 's_0'.
+# ** Error: alu.v(227): (vlog-2730) Undefined variable: 'c_1'.
+# ** Error: alu.v(231): Checker 'full_adder' not found. Instantiation 'fa_0' must be of a visible checker.
+# ** Error: alu.v(234): (vlog-2730) Undefined variable: 's_1'.
+# ** Error: alu.v(235): (vlog-2730) Undefined variable: 'c_2'.
+# ** Error: alu.v(239): Checker 'full_adder' not found. Instantiation 'fa_1' must be of a visible checker.
+# ** Error: alu.v(242): (vlog-2730) Undefined variable: 's_2'.
+# ** Error: alu.v(243): (vlog-2730) Undefined variable: 'c_3'.
+# ** Error: alu.v(247): Checker 'full_adder' not found. Instantiation 'fa_2' must be of a visible checker.
+# ** Error: alu.v(250): (vlog-2730) Undefined variable: 's_3'.
+# ** Error: alu.v(251): (vlog-2730) Undefined variable: 'c_out'.
+# ** Error: alu.v(255): Checker 'full_adder' not found. Instantiation 'fa_3' must be of a visible checker.
+# ** Error: alu.v(257): (vlog-2730) Undefined variable: 'out'.
+# ** Error: alu.v(257): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(258): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(259): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(260): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(262): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: (vlog-13069) alu.v(264): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(276): (vlog-2730) Undefined variable: 'a_xor_b'.
+# ** Error: alu.v(276): LHS in procedural continuous assignment may not be a net: a_xor_b.
+# ** Error: alu.v(280): (vlog-2730) Undefined variable: 'c_i'.
+# ** Error: alu.v(282): (vlog-2730) Undefined variable: 'c_o'.
+# ** Error: alu.v(283): Checker 'mux2to1' not found. Instantiation 'mux' must be of a visible checker.
+# ** Error: alu.v(285): (vlog-2730) Undefined variable: 's'.
+# ** Error: alu.v(285): LHS in procedural continuous assignment may not be a net: s.
+# ** Error: (vlog-13069) alu.v(287): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'm'.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'y'.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'x'.
+# ** Error: alu.v(296): LHS in procedural continuous assignment may not be a net: m.
+# ** Error: (vlog-13069) alu.v(298): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(305): (vlog-2730) Undefined variable: 'in'.
+# ** Error: alu.v(308): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(313): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(317): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(322): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(326): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(331): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(335): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: (vlog-13069) alu.v(337): near "endmodule": syntax error, unexpected endmodule.
+# End time: 16:25:44 on Feb 04,2017, Elapsed time: 0:00:00
+# Errors: 86, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./alu.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns alu.v"
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 20:39:08 on Jan 31,2017
+# Start time: 16:26:40 on Feb 04,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
-# ** Warning: alu.v(204): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module vadder
-# ** Warning: alu.v(213): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module op3
-# ** Warning: alu.v(222): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module redOr
-# ** Warning: alu.v(230): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module concat
-# ** Warning: alu.v(238): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module ripple
-# ** Warning: alu.v(280): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module fullAdder
-# ** Warning: alu.v(290): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg0
-# ** Warning: alu.v(300): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg1
-# ** Warning: alu.v(313): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg2
-# ** Warning: alu.v(324): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg3
-# ** Warning: alu.v(336): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg4
-# ** Warning: alu.v(347): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg5
-# ** Warning: alu.v(358): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg6
-# ** Warning: alu.v(369): (vlog-2283) Extra semicolon in $unit (global) scope.
-# 
-# Top level modules:
-# 	alu
-# End time: 20:39:08 on Jan 31,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 14
-# vsim alu 
-# Start time: 20:37:29 on Jan 31,2017
-# Loading work.alu
-# Loading work.ripple
-# Loading work.fullAdder
-# Loading work.vadder
-# Loading work.op3
-# Loading work.redOr
-# Loading work.concat
-# Loading work.seg0
-# Loading work.seg1
-# Loading work.seg2
-# Loading work.seg3
-# Loading work.seg4
-# Loading work.seg5
-# Loading work.seg6
-# ** Warning: (vsim-3015) alu.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r0 File: alu.v
-# ** Warning: (vsim-3015) alu.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r1 File: alu.v
-# ** Error: (vsim-3063) alu.v(124): Port 'seg0' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s3a File: alu.v
-# ** Error: (vsim-3063) alu.v(131): Port 'seg1' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s4a File: alu.v
-# ** Error: (vsim-3063) alu.v(138): Port 'seg2' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s5a File: alu.v
-# ** Error: (vsim-3063) alu.v(145): Port 'seg2' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s6a File: alu.v
-# ** Error: (vsim-3063) alu.v(168): Port 'seg0' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s2b File: alu.v
-# ** Error: (vsim-3063) alu.v(175): Port 'seg1' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s3b File: alu.v
-# ** Error: (vsim-3063) alu.v(182): Port 'seg0' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s4b File: alu.v
-# ** Error: (vsim-3063) alu.v(189): Port 'seg1' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s5b File: alu.v
-# ** Error: (vsim-3063) alu.v(196): Port 'seg1' not found in the connected module (5th connection).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/s6b File: alu.v
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./alu.do PAUSED at line 3
-cd Lab3
-# couldn't change working directory to "Lab3": no such file or directory
+# ** Error: (vlog-13069) alu.v(126): near "default": syntax error, unexpected default, expecting ';'.
+# ** Error: alu.v(147): (vlog-2730) Undefined variable: 'hex_0_out'.
+# ** Error: alu.v(149): Checker 'hex' not found. Instantiation 'hex_0' must be of a visible checker.
+# ** Error: alu.v(152): (vlog-2730) Undefined variable: 'hex_1_out'.
+# ** Error: alu.v(154): Checker 'hex' not found. Instantiation 'hex_1' must be of a visible checker.
+# ** Error: alu.v(157): (vlog-2730) Undefined variable: 'hex_2_out'.
+# ** Error: alu.v(159): Checker 'hex' not found. Instantiation 'hex_2' must be of a visible checker.
+# ** Error: alu.v(162): (vlog-2730) Undefined variable: 'hex_3_out'.
+# ** Error: alu.v(164): Checker 'hex' not found. Instantiation 'hex_3' must be of a visible checker.
+# ** Error: alu.v(167): (vlog-2730) Undefined variable: 'hex_4_out'.
+# ** Error: alu.v(169): Checker 'hex' not found. Instantiation 'hex_4' must be of a visible checker.
+# ** Error: alu.v(172): (vlog-2730) Undefined variable: 'hex_5_out'.
+# ** Error: alu.v(174): Checker 'hex' not found. Instantiation 'hex_5' must be of a visible checker.
+# ** Error: alu.v(176): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(177): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(178): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(179): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(180): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(181): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(182): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(183): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(185): LHS in procedural continuous assignment may not be a net: HEX0.
+# ** Error: alu.v(186): LHS in procedural continuous assignment may not be a net: HEX1.
+# ** Error: alu.v(187): LHS in procedural continuous assignment may not be a net: HEX2.
+# ** Error: alu.v(188): LHS in procedural continuous assignment may not be a net: HEX3.
+# ** Error: alu.v(189): LHS in procedural continuous assignment may not be a net: HEX4.
+# ** Error: alu.v(190): LHS in procedural continuous assignment may not be a net: HEX5.
+# ** Error: (vlog-13069) alu.v(191): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(213): (vlog-2730) Undefined variable: 'in_1'.
+# ** Error: alu.v(213): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(214): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(215): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(216): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(218): (vlog-2730) Undefined variable: 'in_2'.
+# ** Error: alu.v(218): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(219): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(220): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(221): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(223): (vlog-2730) Undefined variable: 'c_in'.
+# ** Error: alu.v(223): (vlog-2730) Undefined variable: 'in_3'.
+# ** Error: alu.v(223): LHS in procedural continuous assignment may not be a net: c_in.
+# ** Error: alu.v(226): (vlog-2730) Undefined variable: 's_0'.
+# ** Error: alu.v(227): (vlog-2730) Undefined variable: 'c_1'.
+# ** Error: alu.v(231): Checker 'full_adder' not found. Instantiation 'fa_0' must be of a visible checker.
+# ** Error: alu.v(234): (vlog-2730) Undefined variable: 's_1'.
+# ** Error: alu.v(235): (vlog-2730) Undefined variable: 'c_2'.
+# ** Error: alu.v(239): Checker 'full_adder' not found. Instantiation 'fa_1' must be of a visible checker.
+# ** Error: alu.v(242): (vlog-2730) Undefined variable: 's_2'.
+# ** Error: alu.v(243): (vlog-2730) Undefined variable: 'c_3'.
+# ** Error: alu.v(247): Checker 'full_adder' not found. Instantiation 'fa_2' must be of a visible checker.
+# ** Error: alu.v(250): (vlog-2730) Undefined variable: 's_3'.
+# ** Error: alu.v(251): (vlog-2730) Undefined variable: 'c_out'.
+# ** Error: alu.v(255): Checker 'full_adder' not found. Instantiation 'fa_3' must be of a visible checker.
+# ** Error: alu.v(257): (vlog-2730) Undefined variable: 'out'.
+# ** Error: alu.v(257): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(258): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(259): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(260): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(262): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: (vlog-13069) alu.v(264): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(276): (vlog-2730) Undefined variable: 'a_xor_b'.
+# ** Error: alu.v(276): LHS in procedural continuous assignment may not be a net: a_xor_b.
+# ** Error: alu.v(280): (vlog-2730) Undefined variable: 'c_i'.
+# ** Error: alu.v(282): (vlog-2730) Undefined variable: 'c_o'.
+# ** Error: alu.v(283): Checker 'mux2to1' not found. Instantiation 'mux' must be of a visible checker.
+# ** Error: alu.v(285): (vlog-2730) Undefined variable: 's'.
+# ** Error: alu.v(285): LHS in procedural continuous assignment may not be a net: s.
+# ** Error: (vlog-13069) alu.v(287): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'm'.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'y'.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'x'.
+# ** Error: alu.v(296): LHS in procedural continuous assignment may not be a net: m.
+# ** Error: (vlog-13069) alu.v(298): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(305): (vlog-2730) Undefined variable: 'in'.
+# ** Error: alu.v(308): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(313): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(317): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(322): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(326): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(331): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(335): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: (vlog-13069) alu.v(337): near "endmodule": syntax error, unexpected endmodule.
+# End time: 16:26:40 on Feb 04,2017, Elapsed time: 0:00:00
+# Errors: 82, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./alu.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns alu.v"
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 20:40:36 on Jan 31,2017
+# Start time: 16:28:30 on Feb 04,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
-# ** Warning: alu.v(204): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module vadder
-# ** Warning: alu.v(213): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module op3
-# ** Warning: alu.v(222): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module redOr
-# ** Warning: alu.v(230): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module concat
-# ** Warning: alu.v(238): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module ripple
-# ** Warning: alu.v(280): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module fullAdder
-# ** Warning: alu.v(290): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg0
-# ** Warning: alu.v(300): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg1
-# ** Warning: alu.v(313): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg2
-# ** Warning: alu.v(324): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg3
-# ** Warning: alu.v(336): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg4
-# ** Warning: alu.v(347): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg5
-# ** Warning: alu.v(358): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg6
-# ** Warning: alu.v(369): (vlog-2283) Extra semicolon in $unit (global) scope.
-# 
-# Top level modules:
-# 	alu
-# End time: 20:40:36 on Jan 31,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 14
-# vsim alu 
-# Start time: 20:37:29 on Jan 31,2017
-# Loading work.alu
-# Loading work.ripple
-# Loading work.fullAdder
-# Loading work.vadder
-# Loading work.op3
-# Loading work.redOr
-# Loading work.concat
-# Loading work.seg0
-# Loading work.seg1
-# Loading work.seg2
-# Loading work.seg3
-# Loading work.seg4
-# Loading work.seg5
-# Loading work.seg6
-# ** Warning: (vsim-3015) alu.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r0 File: alu.v
-# ** Warning: (vsim-3015) alu.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r1 File: alu.v
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 20:41:24 on Jan 31,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# ** Warning: alu.v(204): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module vadder
-# ** Warning: alu.v(213): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module op3
-# ** Warning: alu.v(222): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module redOr
-# ** Warning: alu.v(230): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module concat
-# ** Warning: alu.v(238): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module ripple
-# ** Warning: alu.v(280): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module fullAdder
-# ** Warning: alu.v(290): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg0
-# ** Warning: alu.v(300): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg1
-# ** Warning: alu.v(313): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg2
-# ** Warning: alu.v(324): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg3
-# ** Warning: alu.v(336): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg4
-# ** Warning: alu.v(347): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg5
-# ** Warning: alu.v(358): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg6
-# ** Warning: alu.v(369): (vlog-2283) Extra semicolon in $unit (global) scope.
-# 
-# Top level modules:
-# 	alu
-# End time: 20:41:24 on Jan 31,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 14
-# End time: 20:41:25 on Jan 31,2017, Elapsed time: 0:03:56
-# Errors: 18, Warnings: 20
-# vsim alu 
-# Start time: 20:41:25 on Jan 31,2017
-# Loading work.alu
-# Loading work.ripple
-# Loading work.fullAdder
-# Loading work.vadder
-# Loading work.op3
-# Loading work.redOr
-# Loading work.concat
-# Loading work.seg0
-# Loading work.seg1
-# Loading work.seg2
-# Loading work.seg3
-# Loading work.seg4
-# Loading work.seg5
-# Loading work.seg6
-# ** Warning: (vsim-3015) alu.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r0 File: alu.v
-# ** Warning: (vsim-3015) alu.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r1 File: alu.v
-do ripple2.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 20:45:28 on Jan 31,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns ripple.v 
-# -- Compiling module ripple
-# -- Compiling module fullAdder
-# 
-# Top level modules:
-# 	ripple
-# End time: 20:45:28 on Jan 31,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 20:45:30 on Jan 31,2017, Elapsed time: 0:04:05
-# Errors: 0, Warnings: 2
-# vsim ripple 
-# Start time: 20:45:30 on Jan 31,2017
-# Loading work.ripple
-# Loading work.fullAdder
-# End time: 20:45:59 on Jan 31,2017, Elapsed time: 0:00:29
-# Errors: 0, Warnings: 0
+# ** Error: (vlog-13069) alu.v(126): near "default": syntax error, unexpected default, expecting ';'.
+# ** Error: (vlog-13069) alu.v(137): near "end": syntax error, unexpected end.
+# ** Error: alu.v(147): (vlog-2730) Undefined variable: 'hex_0_out'.
+# ** Error: alu.v(149): Checker 'hex' not found. Instantiation 'hex_0' must be of a visible checker.
+# ** Error: alu.v(152): (vlog-2730) Undefined variable: 'hex_1_out'.
+# ** Error: alu.v(154): Checker 'hex' not found. Instantiation 'hex_1' must be of a visible checker.
+# ** Error: alu.v(157): (vlog-2730) Undefined variable: 'hex_2_out'.
+# ** Error: alu.v(159): Checker 'hex' not found. Instantiation 'hex_2' must be of a visible checker.
+# ** Error: alu.v(162): (vlog-2730) Undefined variable: 'hex_3_out'.
+# ** Error: alu.v(164): Checker 'hex' not found. Instantiation 'hex_3' must be of a visible checker.
+# ** Error: alu.v(167): (vlog-2730) Undefined variable: 'hex_4_out'.
+# ** Error: alu.v(169): Checker 'hex' not found. Instantiation 'hex_4' must be of a visible checker.
+# ** Error: alu.v(172): (vlog-2730) Undefined variable: 'hex_5_out'.
+# ** Error: alu.v(174): Checker 'hex' not found. Instantiation 'hex_5' must be of a visible checker.
+# ** Error: alu.v(176): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(177): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(178): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(179): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(180): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(181): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(182): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(183): LHS in procedural continuous assignment may not be a net: LEDR.
+# ** Error: alu.v(185): LHS in procedural continuous assignment may not be a net: HEX0.
+# ** Error: alu.v(186): LHS in procedural continuous assignment may not be a net: HEX1.
+# ** Error: alu.v(187): LHS in procedural continuous assignment may not be a net: HEX2.
+# ** Error: alu.v(188): LHS in procedural continuous assignment may not be a net: HEX3.
+# ** Error: alu.v(189): LHS in procedural continuous assignment may not be a net: HEX4.
+# ** Error: alu.v(190): LHS in procedural continuous assignment may not be a net: HEX5.
+# ** Error: (vlog-13069) alu.v(191): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(213): (vlog-2730) Undefined variable: 'in_1'.
+# ** Error: alu.v(213): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(214): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(215): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(216): LHS in procedural continuous assignment may not be a net: a.
+# ** Error: alu.v(218): (vlog-2730) Undefined variable: 'in_2'.
+# ** Error: alu.v(218): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(219): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(220): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(221): LHS in procedural continuous assignment may not be a net: b.
+# ** Error: alu.v(223): (vlog-2730) Undefined variable: 'c_in'.
+# ** Error: alu.v(223): (vlog-2730) Undefined variable: 'in_3'.
+# ** Error: alu.v(223): LHS in procedural continuous assignment may not be a net: c_in.
+# ** Error: alu.v(226): (vlog-2730) Undefined variable: 's_0'.
+# ** Error: alu.v(227): (vlog-2730) Undefined variable: 'c_1'.
+# ** Error: alu.v(231): Checker 'full_adder' not found. Instantiation 'fa_0' must be of a visible checker.
+# ** Error: alu.v(234): (vlog-2730) Undefined variable: 's_1'.
+# ** Error: alu.v(235): (vlog-2730) Undefined variable: 'c_2'.
+# ** Error: alu.v(239): Checker 'full_adder' not found. Instantiation 'fa_1' must be of a visible checker.
+# ** Error: alu.v(242): (vlog-2730) Undefined variable: 's_2'.
+# ** Error: alu.v(243): (vlog-2730) Undefined variable: 'c_3'.
+# ** Error: alu.v(247): Checker 'full_adder' not found. Instantiation 'fa_2' must be of a visible checker.
+# ** Error: alu.v(250): (vlog-2730) Undefined variable: 's_3'.
+# ** Error: alu.v(251): (vlog-2730) Undefined variable: 'c_out'.
+# ** Error: alu.v(255): Checker 'full_adder' not found. Instantiation 'fa_3' must be of a visible checker.
+# ** Error: alu.v(257): (vlog-2730) Undefined variable: 'out'.
+# ** Error: alu.v(257): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(258): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(259): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(260): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(262): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: (vlog-13069) alu.v(264): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(276): (vlog-2730) Undefined variable: 'a_xor_b'.
+# ** Error: alu.v(276): LHS in procedural continuous assignment may not be a net: a_xor_b.
+# ** Error: alu.v(280): (vlog-2730) Undefined variable: 'c_i'.
+# ** Error: alu.v(282): (vlog-2730) Undefined variable: 'c_o'.
+# ** Error: alu.v(283): Checker 'mux2to1' not found. Instantiation 'mux' must be of a visible checker.
+# ** Error: alu.v(285): (vlog-2730) Undefined variable: 's'.
+# ** Error: alu.v(285): LHS in procedural continuous assignment may not be a net: s.
+# ** Error: (vlog-13069) alu.v(287): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'm'.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'y'.
+# ** Error: alu.v(296): (vlog-2730) Undefined variable: 'x'.
+# ** Error: alu.v(296): LHS in procedural continuous assignment may not be a net: m.
+# ** Error: (vlog-13069) alu.v(298): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: alu.v(305): (vlog-2730) Undefined variable: 'in'.
+# ** Error: alu.v(308): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(313): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(317): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(322): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(326): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(331): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: alu.v(335): LHS in procedural continuous assignment may not be a net: out.
+# ** Error: (vlog-13069) alu.v(337): near "endmodule": syntax error, unexpected endmodule.
+# End time: 16:28:30 on Feb 04,2017, Elapsed time: 0:00:00
+# Errors: 83, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./alu.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns alu.v"

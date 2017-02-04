@@ -1,7 +1,7 @@
 module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 
-		output [9:0] LEDR;
-		output [6:0] HEX0;
+	output [9:0] LEDR;
+	output [6:0] HEX0;
     output [6:0] HEX1;
     output [6:0] HEX2;
     output [6:0] HEX3;
@@ -9,6 +9,8 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
     output [6:0] HEX5;
 		input [9:0] SW;
     input [0:0] KEY;
+
+	    reg [7:0] Out;
 
     wire [3:0] a;
     wire [3:0] b;
@@ -29,8 +31,8 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 		assign b[2] = Out[2];
 		assign b[3] = Out[3];
 
-    assign f[0] = SW[5]
-    assign f[1] = SW[6]
+    assign f[0] = SW[5];
+    assign f[1] = SW[6];
     assign f[2] = SW[7];
 
 	// Case 0:
@@ -82,12 +84,12 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 
 	// Case 5
 
-	wire [3:0] = left_shift_out;
+	wire [3:0] left_shift_out;
 	assign left_shift_out = b << a;
 
 	// Case 6
 
-	wire [3:0] = right_shift_out;
+	wire [3:0] right_shift_out;
 	assign right_shift_out = b >> a;
 
 	// Case 7
@@ -101,8 +103,6 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 	assign three_zero = 3'b000;
 	assign four_zero = 4'b0000;
 	assign seven_zero = 7'b0000000;
-
-    reg [7:0] Out;
 
     always @(*)
     begin
