@@ -2,38 +2,38 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 
 	output [9:0] LEDR;
 	output [6:0] HEX0;
-    output [6:0] HEX1;
-    output [6:0] HEX2;
-    output [6:0] HEX3;
-    output [6:0] HEX4;
-    output [6:0] HEX5;
-		input [9:0] SW;
-    input [0:0] KEY;
+    	output [6:0] HEX1;
+    	output [6:0] HEX2;
+    	output [6:0] HEX3;
+    	output [6:0] HEX4;
+    	output [6:0] HEX5;
+	input [9:0] SW;
+    	input [0:0] KEY;
 
-	    reg [7:0] Out;
+	reg [7:0] Out;
 
-    wire [3:0] a;
-    wire [3:0] b;
-    wire [2:0] f;
-		wire clock;
-		wire reset_n;
+    	wire [3:0] a;
+    	wire [3:0] b;
+    	wire [2:0] f;
+	wire clock;
+	wire reset_n;
 
-		assign clock = ~ KEY[0];
-		assign reset_n = SW[9];
+	assign clock = ~ KEY[0];
+	assign reset_n = SW[9];
 
-    assign a[0] = SW[0];
-    assign a[1] = SW[1];
-    assign a[2] = SW[2];
-    assign a[3] = SW[3];
+    	assign a[0] = SW[0];
+   	assign a[1] = SW[1];
+   	assign a[2] = SW[2];
+  	assign a[3] = SW[3];
 
-		assign b[0] = Out[0];
-		assign b[1] = Out[1];
-		assign b[2] = Out[2];
-		assign b[3] = Out[3];
+	assign b[0] = Out[0];
+	assign b[1] = Out[1];
+	assign b[2] = Out[2];
+	assign b[3] = Out[3];
 
-    assign f[0] = SW[5];
-    assign f[1] = SW[6];
-    assign f[2] = SW[7];
+	assign f[0] = SW[5];
+    	assign f[1] = SW[6];
+    	assign f[2] = SW[7];
 
 	// Case 0:
 
@@ -43,11 +43,12 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 	assign one[1] = 0;
 	assign one[2] = 0;
 	assign one[3] = 0;
+
 	rc_adder a_1_adder(
 		.out(a_1_adder_out),
 		.in_1(a),
 		.in_2(one),
-        .in_3(0)
+        	.in_3(0)
 	);
 
 	// Case 1:
@@ -110,68 +111,68 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
             3'b000:
                 Out = {three_zero, a_1_adder_out};
             3'b001:
-								Out = {three_zero, a_b_adder_out};
+		Out = {three_zero, a_b_adder_out};
             3'b010:
-								Out = {four_zero, a_plus_b_out};
+		Out = {four_zero, a_plus_b_out};
             3'b011:
-								Out = {four_zero, a_xor_b_out};
+		Out = {four_zero, a_xor_b_out};
             3'b100:
-								Out = {seven_zero, red_out};
+		Out = {seven_zero, red_out};
             3'b101:
-								Out = {four_zero, left_shift_out};
+		Out = {four_zero, left_shift_out};
             3'b110:
-								Out = {four_zero, right_shift_out};
-						3'b111:
-								Out = {four_zero, a_times_b_out}
+		Out = {four_zero, right_shift_out};
+	    3'b111:
+		Out = {four_zero, a_times_b_out}
             default:
-								Out[0] = 0;
+		Out = 0;
         endcase
     end
 
-		always @(posedge clock)
-		begin
-				if (reset_n == 1'b0)
-						Out <= 8'b00000000;
-				else
-						// What???
-		end
+	always @(posedge clock)
+	begin
+		if (reset_n == 1'b0)
+			Out <= 8'b00000000;
+		else
+			// Do nothing
+	end
 
-    wire [6:0] hex_0_out;
-    wire [6:0] hex_1_out;
-    wire [6:0] hex_2_out;
-    wire [6:0] hex_3_out;
-    wire [6:0] hex_4_out;
-    wire [6:0] hex_5_out;
+    	wire [6:0] hex_0_out;
+   	wire [6:0] hex_1_out;
+    	wire [6:0] hex_2_out;
+    	wire [6:0] hex_3_out;
+    	wire [6:0] hex_4_out;
+    	wire [6:0] hex_5_out;
 
-    hex hex_0(
-        .out(hex_0_out),
-        .in(b)
-    );
+    	hex hex_0(
+        	.out(hex_0_out),
+        	.in(b)
+    	);
 
-		hex hex_1(
-			.out(hex_1_out),
-			.in(four_zero)
-		);
+	hex hex_1(
+		.out(hex_1_out),
+		.in(four_zero)
+	);
 
-		hex hex_2(
-			.out(hex_2_out),
-			.in(a)
-		);
+	hex hex_2(
+		.out(hex_2_out),
+		.in(a)
+	);
 
-		hex hex_3(
-			.out(hex_3_out),
-			.in(four_zero)
-		);
+	hex hex_3(
+		.out(hex_3_out),
+		.in(four_zero)
+	);
 
-		hex hex_4(
-			.out(hex_4_out),
-			.in(Out[3:0])
-		);
+	hex hex_4(
+		.out(hex_4_out),
+		.in(Out[3:0])
+	);
 
-		hex hex_5(
-			.out(hex_5_out),
-			.in(Out[7:4])
-		);
+	hex hex_5(
+		.out(hex_5_out),
+		.in(Out[7:4])
+	);
 
 	assign LEDR[0] = Out[0];
 	assign LEDR[1] = Out[1];
@@ -182,12 +183,12 @@ module alu(LEDR, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, SW, KEY);
 	assign LEDR[6] = Out[6];
 	assign LEDR[7] = Out[7];
 
-    assign HEX0 = hex_0_out;
-    assign HEX1 = hex_1_out;
-    assign HEX2 = hex_2_out;
-    assign HEX3 = hex_3_out;
-    assign HEX4 = hex_4_out;
-    assign HEX5 = hex_5_out;
+    	assign HEX0 = hex_0_out;
+    	assign HEX1 = hex_1_out;
+    	assign HEX2 = hex_2_out;
+    	assign HEX3 = hex_3_out;
+   	assign HEX4 = hex_4_out;
+    	assign HEX5 = hex_5_out;
 endmodule
 
 
