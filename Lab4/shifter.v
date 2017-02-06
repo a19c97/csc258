@@ -112,7 +112,7 @@ module shifter(SW, KEY, LEDR);
 endmodule
 
 module shifter_bit(load_val, in, shift, load_n, clk, reset_n, out);
-	input load_val, in, shift, load_n, reset_n;
+	input load_val, in, shift, load_n, clk, reset_n;
 	output out;
 	wire m0, m1;
 	
@@ -149,9 +149,14 @@ module pos_d(d, clk, reset_n, q);
 endmodule
 
 module mux2to1(x, y, s, m);
+
 	input x; //selected when s is 0
+
 	input y; //selected when s is 1
 	input s; //select signal
+
         output m; //output
+
 	assign m = s & y | ~s & x;
+
 endmodule
