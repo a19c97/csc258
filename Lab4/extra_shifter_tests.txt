@@ -1,0 +1,33 @@
+# second test case
+# all 1’s, shifting right, no ARS
+force {SW[0]} 1
+force {SW[1]} 1
+force {SW[2]} 1
+force {SW[3]} 1
+force {SW[4]} 1
+force {SW[5]} 1
+force {SW[6]} 1
+force {SW[7]} 1
+force {SW[9]} 1
+force {KEY[0]} 0 0, 1 1 -repeat 10
+force {KEY[1]} 1
+force {KEY[2]} 1
+force {KEY[3]} 0
+run 10ns
+
+# third test case
+# all 1's, shifting right, with ARS
+force {SW[0]} 1
+force {SW[1]} 1
+force {SW[2]} 1
+force {SW[3]} 1
+force {SW[4]} 1
+force {SW[5]} 1
+force {SW[6]} 1
+force {SW[7]} 1
+force {SW[9]} 1
+force {KEY[0]} 0 0, 1 1 -repeat 10
+force {KEY[1]} 1
+force {KEY[2]} 1
+force {KEY[3]} 1
+run 10ns

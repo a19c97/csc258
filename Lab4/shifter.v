@@ -100,7 +100,7 @@ module shifter(SW, KEY, LEDR);
 		.reset_n(reset_n),
 		.out(out[6])
 	);
-	shifter_bit q7(
+	last_shifter_bit q7(
 		.load_val(LoadVal[7]),
 		.in(0),               // what to put here?
 		.shift(ShiftRight),
@@ -117,8 +117,41 @@ module shifter_bit(load_val, in, shift, load_n, clk, reset_n, out);
 	wire m0, m1;
 	
 	mux2to1 mux0(
-		.x(out),
+		.x(out), 
 		.y(in),
+		.s(shift),
+		.m(m0)
+	);
+	mux2to1 mux1(
+		.x(load_val),
+		.y(m0),
+		.s(load_n),
+		.m(m1)
+	);
+	pos_d dff(
+		.d(m1),
+		.clk(clk),
+		.reset_n(reset_n),
+		.q(out)
+	);
+endmodule
+
+module last_shifter_bit(load_val, in, shift, load_n, clk, reset_n, ASR, out);
+	input load_val, in, shift, load_n, clk, reset_n, ASR;
+	output out;
+	wire m0, m1;
+	reg a;
+	always @(*)
+	begin
+		if (ASR == 0)
+			a = 0;
+		else
+			a = load_val;
+	end
+	
+	mux2to1 mux0(
+		.x(out),
+		.y(a),
 		.s(shift),
 		.m(m0)
 	);
@@ -138,10 +171,10 @@ endmodule
 
 module pos_d(d, clk, reset_n, q);
 	input d, clk, reset_n;
-	output q;
+	output reg q;
 	always @(posedge clk)
 	begin
-		if (reset_n == 1’b0)
+		if (reset_n == 1'b0)
 			q <= 0;
 		else
 			q <= d;
