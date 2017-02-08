@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 d/h/u12/c5/00/chenqi38/csc258/Lab4
 valu
-Z1 !s110 1486499293
+Z1 !s110 1486579536
 !i10b 1
 !s100 J=WdN1cP5j>[9b0Fo4zGQ2
 Ibk[zE8`lf<dZi9_G>S<8z3
@@ -23,7 +23,7 @@ Z6 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z7 !s108 1486499293.000000
+Z7 !s108 1486579536.000000
 Z8 !s107 alu.v|
 Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|alu.v|
 !i113 1
@@ -89,23 +89,23 @@ Z17 !s90 -reportprogress|300|-timescale|1ns/1ns|shifter.v|
 !i113 1
 R10
 vmux2to1
-R11
+R1
 !i10b 1
-!s100 [VmJmbS[Ig=:CS^mO8OD?0
-IGkM0]A0eU;igd[K0H=SdA0
+!s100 KkNe5koP=1Do3gJSnS0R]1
+IA<SmT1FP:1Sad2aoVYf2Z3
 R2
 R0
-R12
-R13
-R14
-L0 184
+R3
+R4
+R5
+L0 289
 R6
 r1
 !s85 0
 31
-R15
-R16
-R17
+R7
+R8
+R9
 !i113 1
 R10
 vpos_d

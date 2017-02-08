@@ -1,403 +1,8 @@
 cd Lab4
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:21:11 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# ** Error: (vlog-13067) shifter.v(144.18): Syntax error, unexpected non-printable character with the hex value '0xe2'.
-# ** Error: (vlog-13067) shifter.v(144.19): Syntax error, unexpected non-printable character with the hex value '0x80'.
-# ** Error: (vlog-13067) shifter.v(144.20): Syntax error, unexpected non-printable character with the hex value '0x99'.
-# ** Error: (vlog-13069) shifter.v(144): near "b0": syntax error, unexpected IDENTIFIER.
-# -- Compiling module mux2to1
-# End time: 14:21:11 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./shifter.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns shifter.v"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:21:55 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# ** Error: shifter.v(145): (vlog-2110) Illegal reference to net "q".
-# ** Error: shifter.v(147): (vlog-2110) Illegal reference to net "q".
-# -- Compiling module mux2to1
-# End time: 14:21:55 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./shifter.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns shifter.v"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:22:35 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# ** Error: shifter.v(145): LHS in procedural continuous assignment may not be a net: q.
-# -- Compiling module mux2to1
-# End time: 14:22:35 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./shifter.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns shifter.v"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:22:43 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# ** Error: shifter.v(145): (vlog-2110) Illegal reference to net "q".
-# ** Error: shifter.v(147): (vlog-2110) Illegal reference to net "q".
-# -- Compiling module mux2to1
-# End time: 14:22:43 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./shifter.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns shifter.v"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:22:53 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# ** Error: shifter.v(145): (vlog-2110) Illegal reference to net "q".
-# ** Error: shifter.v(147): (vlog-2110) Illegal reference to net "q".
-# -- Compiling module mux2to1
-# End time: 14:22:53 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./shifter.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns shifter.v"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:23:51 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# ** Error: shifter.v(145): (vlog-2110) Illegal reference to net "q".
-# ** Error: shifter.v(147): (vlog-2110) Illegal reference to net "q".
-# -- Compiling module mux2to1
-# End time: 14:23:51 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 2, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./shifter.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns shifter.v"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:24:45 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 14:24:45 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim shifter 
-# Start time: 14:24:45 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:28:02 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 14:28:02 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 14:28:03 on Feb 07,2017, Elapsed time: 0:03:18
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 14:28:03 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-run -all
-run -all
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:28:40 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 14:28:40 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 14:28:41 on Feb 07,2017, Elapsed time: 0:00:38
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 14:28:41 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# WARNING: No extended dataflow license exists
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:30:09 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# ** Error: (vlog-13069) alu.v(127): near "default": syntax error, unexpected default, expecting ';'.
-# ** Error: (vlog-13069) alu.v(138): near "end": syntax error, unexpected end.
-# ** Error: alu.v(148): (vlog-2730) Undefined variable: 'hex_0_out'.
-# ** Error: alu.v(150): Checker 'hex' not found. Instantiation 'hex_0' must be of a visible checker.
-# ** Error: alu.v(153): (vlog-2730) Undefined variable: 'hex_1_out'.
-# ** Error: alu.v(155): Checker 'hex' not found. Instantiation 'hex_1' must be of a visible checker.
-# ** Error: alu.v(158): (vlog-2730) Undefined variable: 'hex_2_out'.
-# ** Error: alu.v(160): Checker 'hex' not found. Instantiation 'hex_2' must be of a visible checker.
-# ** Error: alu.v(163): (vlog-2730) Undefined variable: 'hex_3_out'.
-# ** Error: alu.v(165): Checker 'hex' not found. Instantiation 'hex_3' must be of a visible checker.
-# ** Error: alu.v(168): (vlog-2730) Undefined variable: 'hex_4_out'.
-# ** Error: alu.v(170): Checker 'hex' not found. Instantiation 'hex_4' must be of a visible checker.
-# ** Error: alu.v(173): (vlog-2730) Undefined variable: 'hex_5_out'.
-# ** Error: alu.v(175): Checker 'hex' not found. Instantiation 'hex_5' must be of a visible checker.
-# ** Error: alu.v(177): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(178): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(179): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(180): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(181): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(182): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(183): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(184): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(186): LHS in procedural continuous assignment may not be a net: HEX0.
-# ** Error: alu.v(187): LHS in procedural continuous assignment may not be a net: HEX1.
-# ** Error: alu.v(188): LHS in procedural continuous assignment may not be a net: HEX2.
-# ** Error: alu.v(189): LHS in procedural continuous assignment may not be a net: HEX3.
-# ** Error: alu.v(190): LHS in procedural continuous assignment may not be a net: HEX4.
-# ** Error: alu.v(191): LHS in procedural continuous assignment may not be a net: HEX5.
-# ** Error: (vlog-13069) alu.v(192): near "endmodule": syntax error, unexpected endmodule.
-# ** Error: alu.v(214): (vlog-2730) Undefined variable: 'in_1'.
-# ** Error: alu.v(214): LHS in procedural continuous assignment may not be a net: a.
-# ** Error: alu.v(215): LHS in procedural continuous assignment may not be a net: a.
-# ** Error: alu.v(216): LHS in procedural continuous assignment may not be a net: a.
-# ** Error: alu.v(217): LHS in procedural continuous assignment may not be a net: a.
-# ** Error: alu.v(219): (vlog-2730) Undefined variable: 'in_2'.
-# ** Error: alu.v(219): LHS in procedural continuous assignment may not be a net: b.
-# ** Error: alu.v(220): LHS in procedural continuous assignment may not be a net: b.
-# ** Error: alu.v(221): LHS in procedural continuous assignment may not be a net: b.
-# ** Error: alu.v(222): LHS in procedural continuous assignment may not be a net: b.
-# ** Error: alu.v(224): (vlog-2730) Undefined variable: 'c_in'.
-# ** Error: alu.v(224): (vlog-2730) Undefined variable: 'in_3'.
-# ** Error: alu.v(224): LHS in procedural continuous assignment may not be a net: c_in.
-# ** Error: alu.v(227): (vlog-2730) Undefined variable: 's_0'.
-# ** Error: alu.v(228): (vlog-2730) Undefined variable: 'c_1'.
-# ** Error: alu.v(232): Checker 'full_adder' not found. Instantiation 'fa_0' must be of a visible checker.
-# ** Error: alu.v(235): (vlog-2730) Undefined variable: 's_1'.
-# ** Error: alu.v(236): (vlog-2730) Undefined variable: 'c_2'.
-# ** Error: alu.v(240): Checker 'full_adder' not found. Instantiation 'fa_1' must be of a visible checker.
-# ** Error: alu.v(243): (vlog-2730) Undefined variable: 's_2'.
-# ** Error: alu.v(244): (vlog-2730) Undefined variable: 'c_3'.
-# ** Error: alu.v(248): Checker 'full_adder' not found. Instantiation 'fa_2' must be of a visible checker.
-# ** Error: alu.v(251): (vlog-2730) Undefined variable: 's_3'.
-# ** Error: alu.v(252): (vlog-2730) Undefined variable: 'c_out'.
-# ** Error: alu.v(256): Checker 'full_adder' not found. Instantiation 'fa_3' must be of a visible checker.
-# ** Error: alu.v(258): (vlog-2730) Undefined variable: 'out'.
-# ** Error: alu.v(258): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(259): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(260): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(261): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(263): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: (vlog-13069) alu.v(265): near "endmodule": syntax error, unexpected endmodule.
-# ** Error: alu.v(277): (vlog-2730) Undefined variable: 'a_xor_b'.
-# ** Error: alu.v(277): LHS in procedural continuous assignment may not be a net: a_xor_b.
-# ** Error: alu.v(281): (vlog-2730) Undefined variable: 'c_i'.
-# ** Error: alu.v(283): (vlog-2730) Undefined variable: 'c_o'.
-# ** Error: alu.v(284): Checker 'mux2to1' not found. Instantiation 'mux' must be of a visible checker.
-# ** Error: alu.v(286): (vlog-2730) Undefined variable: 's'.
-# ** Error: alu.v(286): LHS in procedural continuous assignment may not be a net: s.
-# ** Error: (vlog-13069) alu.v(288): near "endmodule": syntax error, unexpected endmodule.
-# ** Error: alu.v(297): (vlog-2730) Undefined variable: 'm'.
-# ** Error: alu.v(297): (vlog-2730) Undefined variable: 'y'.
-# ** Error: alu.v(297): (vlog-2730) Undefined variable: 'x'.
-# ** Error: alu.v(297): LHS in procedural continuous assignment may not be a net: m.
-# ** Error: (vlog-13069) alu.v(299): near "endmodule": syntax error, unexpected endmodule.
-# ** Error: alu.v(306): (vlog-2730) Undefined variable: 'in'.
-# ** Error: alu.v(309): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(314): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(318): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(323): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(327): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(332): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(336): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: (vlog-13069) alu.v(338): near "endmodule": syntax error, unexpected endmodule.
-# End time: 14:30:09 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 83, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./alu.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns alu.v"
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:31:10 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# ** Error: (vlog-13069) alu.v(127): near "default": syntax error, unexpected default, expecting ';'.
-# ** Error: (vlog-13069) alu.v(138): near "end": syntax error, unexpected end.
-# ** Error: alu.v(148): (vlog-2730) Undefined variable: 'hex_0_out'.
-# ** Error: alu.v(150): Checker 'hex' not found. Instantiation 'hex_0' must be of a visible checker.
-# ** Error: alu.v(153): (vlog-2730) Undefined variable: 'hex_1_out'.
-# ** Error: alu.v(155): Checker 'hex' not found. Instantiation 'hex_1' must be of a visible checker.
-# ** Error: alu.v(158): (vlog-2730) Undefined variable: 'hex_2_out'.
-# ** Error: alu.v(160): Checker 'hex' not found. Instantiation 'hex_2' must be of a visible checker.
-# ** Error: alu.v(163): (vlog-2730) Undefined variable: 'hex_3_out'.
-# ** Error: alu.v(165): Checker 'hex' not found. Instantiation 'hex_3' must be of a visible checker.
-# ** Error: alu.v(168): (vlog-2730) Undefined variable: 'hex_4_out'.
-# ** Error: alu.v(170): Checker 'hex' not found. Instantiation 'hex_4' must be of a visible checker.
-# ** Error: alu.v(173): (vlog-2730) Undefined variable: 'hex_5_out'.
-# ** Error: alu.v(175): Checker 'hex' not found. Instantiation 'hex_5' must be of a visible checker.
-# ** Error: alu.v(177): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(178): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(179): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(180): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(181): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(182): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(183): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(184): LHS in procedural continuous assignment may not be a net: LEDR.
-# ** Error: alu.v(186): LHS in procedural continuous assignment may not be a net: HEX0.
-# ** Error: alu.v(187): LHS in procedural continuous assignment may not be a net: HEX1.
-# ** Error: alu.v(188): LHS in procedural continuous assignment may not be a net: HEX2.
-# ** Error: alu.v(189): LHS in procedural continuous assignment may not be a net: HEX3.
-# ** Error: alu.v(190): LHS in procedural continuous assignment may not be a net: HEX4.
-# ** Error: alu.v(191): LHS in procedural continuous assignment may not be a net: HEX5.
-# ** Error: (vlog-13069) alu.v(192): near "endmodule": syntax error, unexpected endmodule.
-# ** Error: alu.v(214): (vlog-2730) Undefined variable: 'in_1'.
-# ** Error: alu.v(214): LHS in procedural continuous assignment may not be a net: a.
-# ** Error: alu.v(215): LHS in procedural continuous assignment may not be a net: a.
-# ** Error: alu.v(216): LHS in procedural continuous assignment may not be a net: a.
-# ** Error: alu.v(217): LHS in procedural continuous assignment may not be a net: a.
-# ** Error: alu.v(219): (vlog-2730) Undefined variable: 'in_2'.
-# ** Error: alu.v(219): LHS in procedural continuous assignment may not be a net: b.
-# ** Error: alu.v(220): LHS in procedural continuous assignment may not be a net: b.
-# ** Error: alu.v(221): LHS in procedural continuous assignment may not be a net: b.
-# ** Error: alu.v(222): LHS in procedural continuous assignment may not be a net: b.
-# ** Error: alu.v(224): (vlog-2730) Undefined variable: 'c_in'.
-# ** Error: alu.v(224): (vlog-2730) Undefined variable: 'in_3'.
-# ** Error: alu.v(224): LHS in procedural continuous assignment may not be a net: c_in.
-# ** Error: alu.v(227): (vlog-2730) Undefined variable: 's_0'.
-# ** Error: alu.v(228): (vlog-2730) Undefined variable: 'c_1'.
-# ** Error: alu.v(232): Checker 'full_adder' not found. Instantiation 'fa_0' must be of a visible checker.
-# ** Error: alu.v(235): (vlog-2730) Undefined variable: 's_1'.
-# ** Error: alu.v(236): (vlog-2730) Undefined variable: 'c_2'.
-# ** Error: alu.v(240): Checker 'full_adder' not found. Instantiation 'fa_1' must be of a visible checker.
-# ** Error: alu.v(243): (vlog-2730) Undefined variable: 's_2'.
-# ** Error: alu.v(244): (vlog-2730) Undefined variable: 'c_3'.
-# ** Error: alu.v(248): Checker 'full_adder' not found. Instantiation 'fa_2' must be of a visible checker.
-# ** Error: alu.v(251): (vlog-2730) Undefined variable: 's_3'.
-# ** Error: alu.v(252): (vlog-2730) Undefined variable: 'c_out'.
-# ** Error: alu.v(256): Checker 'full_adder' not found. Instantiation 'fa_3' must be of a visible checker.
-# ** Error: alu.v(258): (vlog-2730) Undefined variable: 'out'.
-# ** Error: alu.v(258): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(259): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(260): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(261): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(263): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: (vlog-13069) alu.v(265): near "endmodule": syntax error, unexpected endmodule.
-# ** Error: alu.v(277): (vlog-2730) Undefined variable: 'a_xor_b'.
-# ** Error: alu.v(277): LHS in procedural continuous assignment may not be a net: a_xor_b.
-# ** Error: alu.v(281): (vlog-2730) Undefined variable: 'c_i'.
-# ** Error: alu.v(283): (vlog-2730) Undefined variable: 'c_o'.
-# ** Error: alu.v(284): Checker 'mux2to1' not found. Instantiation 'mux' must be of a visible checker.
-# ** Error: alu.v(286): (vlog-2730) Undefined variable: 's'.
-# ** Error: alu.v(286): LHS in procedural continuous assignment may not be a net: s.
-# ** Error: (vlog-13069) alu.v(288): near "endmodule": syntax error, unexpected endmodule.
-# ** Error: alu.v(297): (vlog-2730) Undefined variable: 'm'.
-# ** Error: alu.v(297): (vlog-2730) Undefined variable: 'y'.
-# ** Error: alu.v(297): (vlog-2730) Undefined variable: 'x'.
-# ** Error: alu.v(297): LHS in procedural continuous assignment may not be a net: m.
-# ** Error: (vlog-13069) alu.v(299): near "endmodule": syntax error, unexpected endmodule.
-# ** Error: alu.v(306): (vlog-2730) Undefined variable: 'in'.
-# ** Error: alu.v(309): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(314): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(318): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(323): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(327): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(332): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: alu.v(336): LHS in procedural continuous assignment may not be a net: out.
-# ** Error: (vlog-13069) alu.v(338): near "endmodule": syntax error, unexpected endmodule.
-# End time: 14:31:10 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 83, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./alu.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns alu.v"
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:31:37 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# ** Error: alu.v(76): (vlog-2884) Bit-select into 'a_xor_b_out' is out of bounds.
-# ** Error: alu.v(77): (vlog-2884) Bit-select into 'a_xor_b_out' is out of bounds.
-# ** Error: alu.v(78): (vlog-2884) Bit-select into 'a_xor_b_out' is out of bounds.
-# ** Error: alu.v(79): (vlog-2884) Bit-select into 'a_xor_b_out' is out of bounds.
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# End time: 14:31:37 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 4, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./alu.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns alu.v"
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:32:14 on Feb 07,2017
+# Start time: 13:11:56 on Feb 08,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
 # -- Compiling module rc_adder
@@ -407,12 +12,10 @@ do alu.do
 # 
 # Top level modules:
 # 	alu
-# End time: 14:32:14 on Feb 07,2017, Elapsed time: 0:00:00
+# End time: 13:11:57 on Feb 08,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# End time: 14:32:15 on Feb 07,2017, Elapsed time: 0:03:34
-# Errors: 179, Warnings: 2
 # vsim alu 
-# Start time: 14:32:15 on Feb 07,2017
+# Start time: 13:11:57 on Feb 08,2017
 # Loading work.alu
 # Loading work.rc_adder
 # Loading work.full_adder
@@ -422,95 +25,57 @@ do alu.do
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
 # ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# WARNING: No extended dataflow license exists
-cd ..
-# Cannot change directory while a simulation is in progress.
-# Use the "quit -sim" command to unload the design first.
-quit -sim
-# End time: 14:36:46 on Feb 07,2017, Elapsed time: 0:04:31
-# Errors: 1, Warnings: 3
-cd ..
-cd Lab3
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:36:56 on Feb 07,2017
+# Start time: 13:13:08 on Feb 08,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
-# ** Warning: alu.v(204): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module vadder
-# ** Warning: alu.v(213): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module op3
-# ** Warning: alu.v(222): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module redOr
-# ** Warning: alu.v(230): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module concat
-# ** Warning: alu.v(238): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module ripple
-# ** Warning: alu.v(280): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module fullAdder
-# ** Warning: alu.v(290): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg0
-# ** Warning: alu.v(300): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg1
-# ** Warning: alu.v(313): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg2
-# ** Warning: alu.v(324): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg3
-# ** Warning: alu.v(336): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg4
-# ** Warning: alu.v(347): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg5
-# ** Warning: alu.v(358): (vlog-2283) Extra semicolon in $unit (global) scope.
-# -- Compiling module seg6
-# ** Warning: alu.v(369): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
 # 
 # Top level modules:
 # 	alu
-# End time: 14:36:56 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 14
+# End time: 13:13:08 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:13:09 on Feb 08,2017, Elapsed time: 0:01:12
+# Errors: 4, Warnings: 2
 # vsim alu 
-# Start time: 14:36:56 on Feb 07,2017
+# Start time: 13:13:09 on Feb 08,2017
 # Loading work.alu
-# Loading work.ripple
-# Loading work.fullAdder
-# Loading work.vadder
-# Loading work.op3
-# Loading work.redOr
-# Loading work.concat
-# Loading work.seg0
-# Loading work.seg1
-# Loading work.seg2
-# Loading work.seg3
-# Loading work.seg4
-# Loading work.seg5
-# Loading work.seg6
-# ** Warning: (vsim-3015) alu.v(46): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r0 File: alu.v
-# ** Warning: (vsim-3015) alu.v(54): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: alu.v(240).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/r1 File: alu.v
-quit -sim
-# End time: 14:37:31 on Feb 07,2017, Elapsed time: 0:00:35
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:14:47 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:14:47 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:14:47 on Feb 08,2017, Elapsed time: 0:01:38
 # Errors: 0, Warnings: 2
-cd ..
-cd Lab4
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:37:39 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 14:37:39 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 # vsim alu 
-# Start time: 14:37:39 on Feb 07,2017
+# Start time: 13:14:47 on Feb 08,2017
 # Loading work.alu
 # Loading work.rc_adder
 # Loading work.full_adder
@@ -520,376 +85,13 @@ do alu.do
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
 # ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# WARNING: No extended dataflow license exists
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:40:01 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 14:40:01 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 14:40:02 on Feb 07,2017, Elapsed time: 0:02:23
-# Errors: 0, Warnings: 3
-# vsim alu 
-# Start time: 14:40:02 on Feb 07,2017
-# Loading work.alu
-# Loading work.rc_adder
-# Loading work.full_adder
-# Loading work.mux2to1
-# Loading work.hex
-# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
-# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# WARNING: No extended dataflow license exists
-force -freeze {sim:/alu/SW[9]} St1 0
-force -freeze {sim:/alu/SW[9]} St1 0
-force -freeze {sim:/alu/SW[8]} St1 0
-vlog -reportprogress 300 -work work /h/u12/c5/00/chenqi38/csc258/Lab4/alu.v
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:42:41 on Feb 07,2017
-# vlog -reportprogress 300 -work work /h/u12/c5/00/chenqi38/csc258/Lab4/alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 14:42:41 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:47:04 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 14:47:04 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 14:47:05 on Feb 07,2017, Elapsed time: 0:07:03
-# Errors: 0, Warnings: 3
-# vsim alu 
-# Start time: 14:47:05 on Feb 07,2017
-# Loading work.alu
-# Loading work.rc_adder
-# Loading work.full_adder
-# Loading work.mux2to1
-# Loading work.hex
-# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
-# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# WARNING: No extended dataflow license exists
-quit -sim
-# End time: 14:47:55 on Feb 07,2017, Elapsed time: 0:00:50
-# Errors: 0, Warnings: 3
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:48:02 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 14:48:02 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim shifter 
-# Start time: 14:48:02 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# WARNING: No extended dataflow license exists
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:58:24 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 14:58:24 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 14:58:25 on Feb 07,2017, Elapsed time: 0:10:23
-# Errors: 0, Warnings: 2
-# vsim shifter 
-# Start time: 14:58:25 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# WARNING: No extended dataflow license exists
-# ** Error: (vsim-4007) A value argument is required.
-# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
-# Error in macro ./shifter.do line 18
-# ** Error: (vsim-4007) A value argument is required.
-# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
-#     while executing
-# "force {KEY[0]} 0 0, 1 1, -cancel 10"
-quit -sim
-# End time: 14:58:53 on Feb 07,2017, Elapsed time: 0:00:28
-# Errors: 2, Warnings: 2
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:58:56 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 14:58:56 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim shifter 
-# Start time: 14:58:57 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# WARNING: No extended dataflow license exists
-# ** Error: (vsim-4007) A value argument is required.
-# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
-# Error in macro ./shifter.do line 18
-# ** Error: (vsim-4007) A value argument is required.
-# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
-#     while executing
-# "force {KEY[0]} 0 0, 1 1, -cancel 10"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:59:26 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 14:59:26 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 14:59:26 on Feb 07,2017, Elapsed time: 0:00:29
-# Errors: 2, Warnings: 2
-# vsim shifter 
-# Start time: 14:59:26 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# WARNING: No extended dataflow license exists
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 14:59:52 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 14:59:52 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 14:59:52 on Feb 07,2017, Elapsed time: 0:00:26
-# Errors: 0, Warnings: 2
-# vsim shifter 
-# Start time: 14:59:52 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
 # WARNING: No extended dataflow license exists
 # Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
 # Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:03:24 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:03:24 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:03:24 on Feb 07,2017, Elapsed time: 0:03:32
-# Errors: 5, Warnings: 2
-# vsim shifter 
-# Start time: 15:03:24 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:04:28 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:04:28 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:04:28 on Feb 07,2017, Elapsed time: 0:01:04
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:04:28 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:05:30 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:05:30 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:05:30 on Feb 07,2017, Elapsed time: 0:01:02
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:05:30 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:06:16 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:06:16 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:06:16 on Feb 07,2017, Elapsed time: 0:00:46
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:06:16 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:07:22 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:07:22 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:07:23 on Feb 07,2017, Elapsed time: 0:01:07
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:07:23 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:08:11 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:08:12 on Feb 07,2017, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 15:08:12 on Feb 07,2017, Elapsed time: 0:00:49
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:08:12 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:08:35 on Feb 07,2017
+# Start time: 13:16:36 on Feb 08,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
 # -- Compiling module rc_adder
@@ -899,12 +101,12 @@ do alu.do
 # 
 # Top level modules:
 # 	alu
-# End time: 15:08:35 on Feb 07,2017, Elapsed time: 0:00:00
+# End time: 13:16:36 on Feb 08,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 15:08:36 on Feb 07,2017, Elapsed time: 0:00:24
-# Errors: 0, Warnings: 1
+# End time: 13:16:36 on Feb 08,2017, Elapsed time: 0:01:49
+# Errors: 2, Warnings: 3
 # vsim alu 
-# Start time: 15:08:36 on Feb 07,2017
+# Start time: 13:16:36 on Feb 08,2017
 # Loading work.alu
 # Loading work.rc_adder
 # Loading work.full_adder
@@ -917,7 +119,7 @@ do alu.do
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:11:12 on Feb 07,2017
+# Start time: 13:17:03 on Feb 08,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
 # -- Compiling module rc_adder
@@ -927,12 +129,76 @@ do alu.do
 # 
 # Top level modules:
 # 	alu
-# End time: 15:11:12 on Feb 07,2017, Elapsed time: 0:00:00
+# End time: 13:17:04 on Feb 08,2017, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# End time: 15:11:12 on Feb 07,2017, Elapsed time: 0:02:36
+# End time: 13:17:04 on Feb 08,2017, Elapsed time: 0:00:28
 # Errors: 0, Warnings: 2
 # vsim alu 
-# Start time: 15:11:12 on Feb 07,2017
+# Start time: 13:17:04 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:17:54 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:17:54 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:17:54 on Feb 08,2017, Elapsed time: 0:00:50
+# Errors: 4, Warnings: 2
+# vsim alu 
+# Start time: 13:17:54 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:18:35 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:18:35 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:18:35 on Feb 08,2017, Elapsed time: 0:00:41
+# Errors: 4, Warnings: 2
+# vsim alu 
+# Start time: 13:18:35 on Feb 08,2017
 # Loading work.alu
 # Loading work.rc_adder
 # Loading work.full_adder
@@ -945,7 +211,7 @@ do alu.do
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:15:11 on Feb 07,2017
+# Start time: 13:19:36 on Feb 08,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
 # -- Compiling module rc_adder
@@ -955,12 +221,12 @@ do alu.do
 # 
 # Top level modules:
 # 	alu
-# End time: 15:15:12 on Feb 07,2017, Elapsed time: 0:00:01
+# End time: 13:19:36 on Feb 08,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 15:15:12 on Feb 07,2017, Elapsed time: 0:04:00
+# End time: 13:19:36 on Feb 08,2017, Elapsed time: 0:01:01
 # Errors: 0, Warnings: 2
 # vsim alu 
-# Start time: 15:15:12 on Feb 07,2017
+# Start time: 13:19:36 on Feb 08,2017
 # Loading work.alu
 # Loading work.rc_adder
 # Loading work.full_adder
@@ -973,7 +239,7 @@ do alu.do
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:17:33 on Feb 07,2017
+# Start time: 13:20:00 on Feb 08,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
 # -- Compiling module rc_adder
@@ -983,12 +249,12 @@ do alu.do
 # 
 # Top level modules:
 # 	alu
-# End time: 15:17:33 on Feb 07,2017, Elapsed time: 0:00:00
+# End time: 13:20:00 on Feb 08,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 15:17:33 on Feb 07,2017, Elapsed time: 0:02:21
+# End time: 13:20:01 on Feb 08,2017, Elapsed time: 0:00:25
 # Errors: 0, Warnings: 2
 # vsim alu 
-# Start time: 15:17:33 on Feb 07,2017
+# Start time: 13:20:01 on Feb 08,2017
 # Loading work.alu
 # Loading work.rc_adder
 # Loading work.full_adder
@@ -998,16 +264,10 @@ do alu.do
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
 # ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# ** Error: (vsim-3462) Value/time pairs must be listed in increasing time order.
-# Error in macro ./alu.do line 12
-# ** Error: (vsim-3462) Value/time pairs must be listed in increasing time order.
-# 
-#     while executing
-# "force {KEY[0]} 0 1, 1 0, 2 1, 3 0, 4 1, 5 0"
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:18:21 on Feb 07,2017
+# Start time: 13:28:27 on Feb 08,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
 # -- Compiling module rc_adder
@@ -1017,12 +277,461 @@ do alu.do
 # 
 # Top level modules:
 # 	alu
-# End time: 15:18:21 on Feb 07,2017, Elapsed time: 0:00:00
+# End time: 13:28:27 on Feb 08,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 15:18:21 on Feb 07,2017, Elapsed time: 0:00:48
+# End time: 13:28:28 on Feb 08,2017, Elapsed time: 0:08:27
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:28:28 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:29:07 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:29:07 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:29:07 on Feb 08,2017, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:29:07 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:29:50 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:29:50 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:29:50 on Feb 08,2017, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:29:50 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:30:37 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:30:37 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:30:37 on Feb 08,2017, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:30:37 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:30:59 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:30:59 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:30:59 on Feb 08,2017, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:30:59 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:32:43 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:32:44 on Feb 08,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:32:44 on Feb 08,2017, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:32:44 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:33:59 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:33:59 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:33:59 on Feb 08,2017, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:33:59 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:34:29 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:34:29 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:34:30 on Feb 08,2017, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:34:30 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:34:56 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:34:56 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:34:57 on Feb 08,2017, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:34:57 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:35:36 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:35:36 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:35:36 on Feb 08,2017, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:35:36 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:36:58 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:36:58 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:36:59 on Feb 08,2017, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:36:59 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:37:30 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:37:31 on Feb 08,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:37:31 on Feb 08,2017, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:37:31 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:39:23 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:39:24 on Feb 08,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:39:24 on Feb 08,2017, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:39:24 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:41:03 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:41:03 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:41:04 on Feb 08,2017, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:41:04 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:42:46 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:42:47 on Feb 08,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:42:47 on Feb 08,2017, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:42:47 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:43:32 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:43:32 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:43:33 on Feb 08,2017, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 2
+# vsim alu 
+# Start time: 13:43:33 on Feb 08,2017
+# Loading work.alu
+# Loading work.rc_adder
+# Loading work.full_adder
+# Loading work.mux2to1
+# Loading work.hex
+# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
+# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
+#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 4 ns.
+do alu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 13:45:14 on Feb 08,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
+# -- Compiling module alu
+# -- Compiling module rc_adder
+# -- Compiling module full_adder
+# -- Compiling module mux2to1
+# -- Compiling module hex
+# 
+# Top level modules:
+# 	alu
+# End time: 13:45:14 on Feb 08,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:45:14 on Feb 08,2017, Elapsed time: 0:01:41
 # Errors: 1, Warnings: 2
 # vsim alu 
-# Start time: 15:18:21 on Feb 07,2017
+# Start time: 13:45:14 on Feb 08,2017
 # Loading work.alu
 # Loading work.rc_adder
 # Loading work.full_adder
@@ -1032,11 +741,11 @@ do alu.do
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
 # ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# WARNING: No extended dataflow license exists
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 4 ns.
 do alu.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:20:45 on Feb 07,2017
+# Start time: 13:45:36 on Feb 08,2017
 # vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
 # -- Compiling module alu
 # -- Compiling module rc_adder
@@ -1046,12 +755,12 @@ do alu.do
 # 
 # Top level modules:
 # 	alu
-# End time: 15:20:46 on Feb 07,2017, Elapsed time: 0:00:01
+# End time: 13:45:36 on Feb 08,2017, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 15:20:46 on Feb 07,2017, Elapsed time: 0:02:25
-# Errors: 0, Warnings: 3
+# End time: 13:45:37 on Feb 08,2017, Elapsed time: 0:00:23
+# Errors: 1, Warnings: 2
 # vsim alu 
-# Start time: 15:20:46 on Feb 07,2017
+# Start time: 13:45:37 on Feb 08,2017
 # Loading work.alu
 # Loading work.rc_adder
 # Loading work.full_adder
@@ -1061,581 +770,5 @@ do alu.do
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
 # ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
 #    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:21:57 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 15:21:57 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:21:57 on Feb 07,2017, Elapsed time: 0:01:11
-# Errors: 4, Warnings: 2
-# vsim alu 
-# Start time: 15:21:57 on Feb 07,2017
-# Loading work.alu
-# Loading work.rc_adder
-# Loading work.full_adder
-# Loading work.mux2to1
-# Loading work.hex
-# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
-# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:23:48 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 15:23:48 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:23:48 on Feb 07,2017, Elapsed time: 0:01:51
-# Errors: 4, Warnings: 2
-# vsim alu 
-# Start time: 15:23:48 on Feb 07,2017
-# Loading work.alu
-# Loading work.rc_adder
-# Loading work.full_adder
-# Loading work.mux2to1
-# Loading work.hex
-# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
-# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:24:13 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 15:24:13 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:24:14 on Feb 07,2017, Elapsed time: 0:00:26
-# Errors: 4, Warnings: 2
-# vsim alu 
-# Start time: 15:24:14 on Feb 07,2017
-# Loading work.alu
-# Loading work.rc_adder
-# Loading work.full_adder
-# Loading work.mux2to1
-# Loading work.hex
-# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
-# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:24:25 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 15:24:25 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:24:25 on Feb 07,2017, Elapsed time: 0:00:11
-# Errors: 4, Warnings: 2
-# vsim alu 
-# Start time: 15:24:25 on Feb 07,2017
-# Loading work.alu
-# Loading work.rc_adder
-# Loading work.full_adder
-# Loading work.mux2to1
-# Loading work.hex
-# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
-# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:27:44 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 15:27:44 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:27:45 on Feb 07,2017, Elapsed time: 0:03:20
-# Errors: 4, Warnings: 2
-# vsim alu 
-# Start time: 15:27:45 on Feb 07,2017
-# Loading work.alu
-# Loading work.rc_adder
-# Loading work.full_adder
-# Loading work.mux2to1
-# Loading work.hex
-# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
-# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-do alu.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:28:13 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns alu.v 
-# -- Compiling module alu
-# -- Compiling module rc_adder
-# -- Compiling module full_adder
-# -- Compiling module mux2to1
-# -- Compiling module hex
-# 
-# Top level modules:
-# 	alu
-# End time: 15:28:14 on Feb 07,2017, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 15:28:14 on Feb 07,2017, Elapsed time: 0:00:29
-# Errors: 4, Warnings: 2
-# vsim alu 
-# Start time: 15:28:14 on Feb 07,2017
-# Loading work.alu
-# Loading work.rc_adder
-# Loading work.full_adder
-# Loading work.mux2to1
-# Loading work.hex
-# ** Warning: (vsim-3015) alu.v(47): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_1_adder File: alu.v
-# ** Warning: (vsim-3015) alu.v(57): [PCDPC] - Port size (1) does not match connection size (32) for port 'in_3'. The port definition is at: alu.v(193).
-#    Time: 0 ns  Iteration: 0  Instance: /alu/a_b_adder File: alu.v
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 10 ns.
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:32:42 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:32:42 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:32:42 on Feb 07,2017, Elapsed time: 0:04:28
-# Errors: 4, Warnings: 2
-# vsim shifter 
-# Start time: 15:32:42 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:40:07 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:40:07 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:40:07 on Feb 07,2017, Elapsed time: 0:07:25
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:40:07 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:47:16 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 15:47:16 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:47:17 on Feb 07,2017, Elapsed time: 0:07:10
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:47:17 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:51:32 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# 	last_shifter_bit
-# End time: 15:51:32 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:51:33 on Feb 07,2017, Elapsed time: 0:04:16
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:51:33 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3017) shifter.v(34): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q0 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(34): [TFMPC] - Missing connection for port 'ASR'.
-# ** Warning: (vsim-3017) shifter.v(44): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q1 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(44): [TFMPC] - Missing connection for port 'ASR'.
-# ** Warning: (vsim-3017) shifter.v(54): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q2 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(54): [TFMPC] - Missing connection for port 'ASR'.
-# ** Warning: (vsim-3017) shifter.v(64): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q3 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(64): [TFMPC] - Missing connection for port 'ASR'.
-# ** Warning: (vsim-3017) shifter.v(74): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q4 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(74): [TFMPC] - Missing connection for port 'ASR'.
-# ** Warning: (vsim-3017) shifter.v(84): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q5 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(84): [TFMPC] - Missing connection for port 'ASR'.
-# ** Warning: (vsim-3017) shifter.v(94): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q6 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(94): [TFMPC] - Missing connection for port 'ASR'.
-# ** Warning: (vsim-3017) shifter.v(103): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(103): [TFMPC] - Missing connection for port 'ASR'.
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:52:44 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# ** Error: shifter.v(146): (vlog-2730) Undefined variable: 'ASR'.
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# End time: 15:52:44 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-# Error in macro ./shifter.do line 2
-# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
-#     while executing
-# "vlog -timescale 1ns/1ns shifter.v"
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:53:34 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# 	last_shifter_bit
-# End time: 15:53:35 on Feb 07,2017, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 15:53:35 on Feb 07,2017, Elapsed time: 0:02:02
-# Errors: 4, Warnings: 17
-# vsim shifter 
-# Start time: 15:53:35 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:54:54 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# 	last_shifter_bit
-# End time: 15:54:54 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:54:54 on Feb 07,2017, Elapsed time: 0:01:19
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:54:54 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:58:02 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# 	last_shifter_bit
-# End time: 15:58:02 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 15:58:03 on Feb 07,2017, Elapsed time: 0:03:09
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 15:58:03 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(119): [PCDPC] - Port size (1) does not match connection size (32) for port 'x'. The port definition is at: shifter.v(184).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q0/mux0 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(119): [PCDPC] - Port size (1) does not match connection size (32) for port 'x'. The port definition is at: shifter.v(184).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q1/mux0 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(119): [PCDPC] - Port size (1) does not match connection size (32) for port 'x'. The port definition is at: shifter.v(184).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q2/mux0 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(119): [PCDPC] - Port size (1) does not match connection size (32) for port 'x'. The port definition is at: shifter.v(184).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q3/mux0 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(119): [PCDPC] - Port size (1) does not match connection size (32) for port 'x'. The port definition is at: shifter.v(184).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q4/mux0 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(119): [PCDPC] - Port size (1) does not match connection size (32) for port 'x'. The port definition is at: shifter.v(184).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q5/mux0 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(119): [PCDPC] - Port size (1) does not match connection size (32) for port 'x'. The port definition is at: shifter.v(184).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q6/mux0 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(119): [PCDPC] - Port size (1) does not match connection size (32) for port 'x'. The port definition is at: shifter.v(184).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7/mux0 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:58:58 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# 	last_shifter_bit
-# End time: 15:58:59 on Feb 07,2017, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 15:58:59 on Feb 07,2017, Elapsed time: 0:00:56
-# Errors: 0, Warnings: 9
-# vsim shifter 
-# Start time: 15:58:59 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(114).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 16:04:19 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 16:04:19 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 16:04:24 on Feb 07,2017, Elapsed time: 0:05:25
-# Errors: 0, Warnings: 1
-# vsim shifter 
-# Start time: 16:04:24 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# Loading work.last_shifter_bit
-# ** Warning: (vsim-3017) shifter.v(103): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(139).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(103): [TFMPC] - Missing connection for port 'ASR'.
-
-quit -siom
-# unknown switch: -siom
-quit -sim
-# End time: 16:04:39 on Feb 07,2017, Elapsed time: 0:00:15
-# Errors: 1, Warnings: 3
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 16:04:45 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 16:04:45 on Feb 07,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim shifter 
-# Start time: 16:04:45 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# Loading work.last_shifter_bit
-# ** Warning: (vsim-3017) shifter.v(103): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(139).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(103): [TFMPC] - Missing connection for port 'ASR'.
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 16:06:05 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 16:06:06 on Feb 07,2017, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 16:06:06 on Feb 07,2017, Elapsed time: 0:01:21
-# Errors: 0, Warnings: 3
-# vsim shifter 
-# Start time: 16:06:06 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# Loading work.last_shifter_bit
-# ** Warning: (vsim-3017) shifter.v(103): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(139).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(103): [TFMPC] - Missing connection for port 'ASR'.
-do shifter.do
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 16:06:39 on Feb 07,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns shifter.v 
-# -- Compiling module shifter
-# -- Compiling module shifter_bit
-# -- Compiling module last_shifter_bit
-# -- Compiling module pos_d
-# -- Compiling module mux2to1
-# 
-# Top level modules:
-# 	shifter
-# End time: 16:06:40 on Feb 07,2017, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 16:06:40 on Feb 07,2017, Elapsed time: 0:00:34
-# Errors: 0, Warnings: 3
-# vsim shifter 
-# Start time: 16:06:40 on Feb 07,2017
-# Loading work.shifter
-# Loading work.shifter_bit
-# Loading work.mux2to1
-# Loading work.pos_d
-# Loading work.last_shifter_bit
-# ** Warning: (vsim-3017) shifter.v(103): [TFMPC] - Too few port connections. Expected 8, found 7.
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3015) shifter.v(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: shifter.v(139).
-#    Time: 0 ns  Iteration: 0  Instance: /shifter/q7 File: shifter.v
-# ** Warning: (vsim-3722) shifter.v(103): [TFMPC] - Missing connection for port 'ASR'.
-# End time: 16:07:08 on Feb 07,2017, Elapsed time: 0:00:28
-# Errors: 0, Warnings: 3
+# End time: 13:46:43 on Feb 08,2017, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
