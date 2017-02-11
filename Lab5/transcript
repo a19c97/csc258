@@ -1,28 +1,139 @@
-do counter.do
+pwd
+# /h/u12/c5/00/chenqi38/csc258/Lab5
+do rate_divider.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:26:56 on Feb 11,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns counter.v 
-# -- Compiling module counter
-# -- Compiling module toggle
-# -- Compiling module and_gate
+# Start time: 17:46:11 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# ** Error: rate_divider.v(105): LHS in procedural continuous assignment may not be a net: upto.
+# ** Error: rate_divider.v(107): LHS in procedural continuous assignment may not be a net: upto.
+# ** Error: rate_divider.v(109): LHS in procedural continuous assignment may not be a net: upto.
+# ** Error: rate_divider.v(111): LHS in procedural continuous assignment may not be a net: upto.
+# ** Error: rate_divider.v(96): Identifier must be declared with a port mode: upto.
+# -- Compiling module rate_divider
+# ** Error: rate_divider.v(129): (vlog-2730) Undefined variable: 'd'.
+# -- Compiling module display_counter
 # -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# End time: 17:46:11 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 7
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./rate_divider.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns rate_divider.v"
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:46:49 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# ** Error: rate_divider.v(96): Identifier must be declared with a port mode: upto.
+# -- Compiling module rate_divider
+# ** Error: rate_divider.v(129): (vlog-2730) Undefined variable: 'd'.
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# End time: 17:46:49 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 7
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./rate_divider.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns rate_divider.v"
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:47:27 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# ** Error: rate_divider.v(129): (vlog-2730) Undefined variable: 'd'.
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# End time: 17:47:27 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 7
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./rate_divider.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns rate_divider.v"
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:47:40 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
 # 
 # Top level modules:
-# 	counter
-# End time: 15:26:56 on Feb 11,2017, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim counter 
-# Start time: 15:26:57 on Feb 11,2017
-# Loading work.counter
-# Loading work.toggle
-# Loading work.and_gate
+# 	rate_divider_wrapper
+# End time: 17:47:40 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# vsim rate_divider_wrapper 
+# Start time: 17:47:40 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# ** Error: (vsim-3037) rate_divider.v(41): Missing instance name in instantiation of 'display_counter'.
+#    Time: 0 ps  Iteration: 0  Instance: /rate_divider_wrapper File: rate_divider.v
 # Loading work.seg0
 # Loading work.seg1
 # Loading work.seg2
@@ -30,57 +141,46 @@ do counter.do
 # Loading work.seg4
 # Loading work.seg5
 # Loading work.seg6
-# ** Warning: (vsim-3017) counter.v(16): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q0 File: counter.v
-# ** Warning: (vsim-3722) counter.v(16): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(23): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q1 File: counter.v
-# ** Warning: (vsim-3722) counter.v(23): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(30): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q2 File: counter.v
-# ** Warning: (vsim-3722) counter.v(30): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(37): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q3 File: counter.v
-# ** Warning: (vsim-3722) counter.v(37): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(44): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q4 File: counter.v
-# ** Warning: (vsim-3722) counter.v(44): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(51): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q5 File: counter.v
-# ** Warning: (vsim-3722) counter.v(51): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(58): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q6 File: counter.v
-# ** Warning: (vsim-3722) counter.v(58): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(65): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q7 File: counter.v
-# ** Warning: (vsim-3722) counter.v(65): [TFMPC] - Missing connection for port 'not_q'.
-do counter.do
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./rate_divider.do PAUSED at line 3
+pwd
+# /h/u12/c5/00/chenqi38/csc258/Lab5
+do rate_divider.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
-# Start time: 15:30:47 on Feb 11,2017
-# vlog -reportprogress 300 -timescale 1ns/1ns counter.v 
-# -- Compiling module counter
-# -- Compiling module toggle
-# -- Compiling module and_gate
+# Start time: 17:48:09 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
 # -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
 # -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
 # 
 # Top level modules:
-# 	counter
-# End time: 15:30:48 on Feb 11,2017, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# End time: 15:30:55 on Feb 11,2017, Elapsed time: 0:03:58
-# Errors: 0, Warnings: 16
-# vsim counter 
-# Start time: 15:30:55 on Feb 11,2017
-# Loading work.counter
-# Loading work.toggle
-# Loading work.and_gate
+# 	rate_divider_wrapper
+# End time: 17:48:10 on Feb 11,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 7
+# vsim rate_divider_wrapper 
+# Start time: 17:47:40 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
 # Loading work.seg0
 # Loading work.seg1
 # Loading work.seg2
@@ -88,27 +188,427 @@ do counter.do
 # Loading work.seg4
 # Loading work.seg5
 # Loading work.seg6
-# ** Warning: (vsim-3017) counter.v(16): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q0 File: counter.v
-# ** Warning: (vsim-3722) counter.v(16): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(23): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q1 File: counter.v
-# ** Warning: (vsim-3722) counter.v(23): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(30): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q2 File: counter.v
-# ** Warning: (vsim-3722) counter.v(30): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(37): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q3 File: counter.v
-# ** Warning: (vsim-3722) counter.v(37): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(44): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q4 File: counter.v
-# ** Warning: (vsim-3722) counter.v(44): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(51): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q5 File: counter.v
-# ** Warning: (vsim-3722) counter.v(51): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(58): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q6 File: counter.v
-# ** Warning: (vsim-3722) counter.v(58): [TFMPC] - Missing connection for port 'not_q'.
-# ** Warning: (vsim-3017) counter.v(65): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ns  Iteration: 0  Instance: /counter/q7 File: counter.v
-# ** Warning: (vsim-3722) counter.v(65): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+# ** Error: invalid command name "//"
+# Error in macro ./rate_divider.do line 10
+# invalid command name "//"
+#     while executing
+# "// how the hell am I supposed to force the clock?"
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:48:37 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:48:37 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# End time: 17:48:37 on Feb 11,2017, Elapsed time: 0:00:57
+# Errors: 4, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:48:37 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+# ** Error: invalid command name "//"
+# Error in macro ./rate_divider.do line 10
+# invalid command name "//"
+#     while executing
+# "// how the hell am I supposed to force the clock?"
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:49:10 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:49:10 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# End time: 17:49:10 on Feb 11,2017, Elapsed time: 0:00:33
+# Errors: 3, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:49:10 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+# ** Error: invalid command name "//"
+# Error in macro ./rate_divider.do line 10
+# invalid command name "//"
+#     while executing
+# "// how the hell am I supposed to force the clock?"
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:50:34 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:50:34 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# End time: 17:50:34 on Feb 11,2017, Elapsed time: 0:01:24
+# Errors: 3, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:50:34 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:51:41 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:51:42 on Feb 11,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 7
+# End time: 17:51:42 on Feb 11,2017, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:51:42 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:52:37 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:52:38 on Feb 11,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 7
+# End time: 17:52:39 on Feb 11,2017, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:52:39 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:54:07 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:54:07 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# End time: 17:54:07 on Feb 11,2017, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:54:07 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:54:51 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:54:51 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# End time: 17:54:51 on Feb 11,2017, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:54:51 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:56:36 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:56:36 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# End time: 17:56:36 on Feb 11,2017, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:56:36 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+do rate_divider.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:57:35 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns rate_divider.v 
+# -- Compiling module rate_divider_wrapper
+# -- Compiling module rate_selector
+# -- Compiling module rate_divider
+# -- Compiling module display_counter
+# -- Compiling module seg0
+# ** Warning: rate_divider.v(162): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg1
+# ** Warning: rate_divider.v(175): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg2
+# ** Warning: rate_divider.v(186): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg3
+# ** Warning: rate_divider.v(198): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg4
+# ** Warning: rate_divider.v(209): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg5
+# ** Warning: rate_divider.v(220): (vlog-2283) Extra semicolon in $unit (global) scope.
+# -- Compiling module seg6
+# ** Warning: rate_divider.v(231): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	rate_divider_wrapper
+# End time: 17:57:35 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 7
+# End time: 17:57:35 on Feb 11,2017, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 8
+# vsim rate_divider_wrapper 
+# Start time: 17:57:35 on Feb 11,2017
+# Loading work.rate_divider_wrapper
+# Loading work.rate_selector
+# Loading work.rate_divider
+# Loading work.display_counter
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3015) rate_divider.v(28): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: rate_divider.v(116).
+#    Time: 0 ns  Iteration: 0  Instance: /rate_divider_wrapper/divider File: rate_divider.v
+# End time: 17:58:05 on Feb 11,2017, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 1

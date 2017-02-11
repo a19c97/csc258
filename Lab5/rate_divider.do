@@ -7,5 +7,6 @@ add wave {/*}
 force {SW[1]} 0
 force {SW[0]} 1
 force {SW[2]} 0 0, 1 2, 0 3
-// how the hell am I supposed to force the clock?
-force {CLOCK_50} 0 0, 1 1 -repeat 50
+# how the hell am I supposed to force the clock?
+force {CLOCK_50} 0 0, 1 1, 0 2, 1 3, 0 4, 1 5, 0 6, 1 7, 0 8, 1 9, 0 10
+run 10ns

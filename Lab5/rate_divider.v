@@ -33,7 +33,7 @@ module rate_divider_wrapper(SW, HEX0, CLOCK_50);
 		.q(q)
 	);
 
-	display_counter(
+	display_counter display(
 		.enable(enable_hex),
 		.reset_n(reset_n),
 		.clock(clock),
@@ -96,8 +96,8 @@ endmodule
 module rate_selector(s0, s1, upto);
 
 	input s0, s1;
-	output d;
-	wire [27:0] upto;
+	output upto;
+	reg [27:0] upto;
 	
 	always @(*)
 	begin
@@ -120,13 +120,13 @@ module rate_divider(enable, upto, reset_n, clock, q); //but enable is always on?
 	output q;
 	reg [27:0] q;
 	
-	always @(posedge clock)
+	always @(posedge clock, posedge reset_n)
 	begin 
 		if (reset_n == 1)
 			q <= 0;
 		else if (enable == 1)
 		begin
-			if (q == (d - 1))
+			if (q == (upto - 1))
 				q <= 0;
 			else
 				q <= q + 1'b1;
@@ -141,7 +141,7 @@ module display_counter(enable, reset_n, clock, q);
 	output q;
 	reg [3:0] q;
 	
-	always @(posedge clock)
+	always @(posedge clock, posedge reset_n)
 	begin
 		if (reset_n == 1)
 			q <= 0;
