@@ -1,0 +1,114 @@
+do counter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:26:56 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns counter.v 
+# -- Compiling module counter
+# -- Compiling module toggle
+# -- Compiling module and_gate
+# -- Compiling module seg0
+# -- Compiling module seg1
+# -- Compiling module seg2
+# -- Compiling module seg3
+# -- Compiling module seg4
+# -- Compiling module seg5
+# -- Compiling module seg6
+# 
+# Top level modules:
+# 	counter
+# End time: 15:26:56 on Feb 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim counter 
+# Start time: 15:26:57 on Feb 11,2017
+# Loading work.counter
+# Loading work.toggle
+# Loading work.and_gate
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3017) counter.v(16): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q0 File: counter.v
+# ** Warning: (vsim-3722) counter.v(16): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(23): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q1 File: counter.v
+# ** Warning: (vsim-3722) counter.v(23): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(30): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q2 File: counter.v
+# ** Warning: (vsim-3722) counter.v(30): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(37): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q3 File: counter.v
+# ** Warning: (vsim-3722) counter.v(37): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(44): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q4 File: counter.v
+# ** Warning: (vsim-3722) counter.v(44): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(51): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q5 File: counter.v
+# ** Warning: (vsim-3722) counter.v(51): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(58): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q6 File: counter.v
+# ** Warning: (vsim-3722) counter.v(58): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(65): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q7 File: counter.v
+# ** Warning: (vsim-3722) counter.v(65): [TFMPC] - Missing connection for port 'not_q'.
+do counter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:30:47 on Feb 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns counter.v 
+# -- Compiling module counter
+# -- Compiling module toggle
+# -- Compiling module and_gate
+# -- Compiling module seg0
+# -- Compiling module seg1
+# -- Compiling module seg2
+# -- Compiling module seg3
+# -- Compiling module seg4
+# -- Compiling module seg5
+# -- Compiling module seg6
+# 
+# Top level modules:
+# 	counter
+# End time: 15:30:48 on Feb 11,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:30:55 on Feb 11,2017, Elapsed time: 0:03:58
+# Errors: 0, Warnings: 16
+# vsim counter 
+# Start time: 15:30:55 on Feb 11,2017
+# Loading work.counter
+# Loading work.toggle
+# Loading work.and_gate
+# Loading work.seg0
+# Loading work.seg1
+# Loading work.seg2
+# Loading work.seg3
+# Loading work.seg4
+# Loading work.seg5
+# Loading work.seg6
+# ** Warning: (vsim-3017) counter.v(16): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q0 File: counter.v
+# ** Warning: (vsim-3722) counter.v(16): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(23): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q1 File: counter.v
+# ** Warning: (vsim-3722) counter.v(23): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(30): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q2 File: counter.v
+# ** Warning: (vsim-3722) counter.v(30): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(37): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q3 File: counter.v
+# ** Warning: (vsim-3722) counter.v(37): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(44): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q4 File: counter.v
+# ** Warning: (vsim-3722) counter.v(44): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(51): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q5 File: counter.v
+# ** Warning: (vsim-3722) counter.v(51): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(58): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q6 File: counter.v
+# ** Warning: (vsim-3722) counter.v(58): [TFMPC] - Missing connection for port 'not_q'.
+# ** Warning: (vsim-3017) counter.v(65): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /counter/q7 File: counter.v
+# ** Warning: (vsim-3722) counter.v(65): [TFMPC] - Missing connection for port 'not_q'.
