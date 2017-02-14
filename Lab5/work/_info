@@ -48,144 +48,224 @@ R8
 R9
 !i113 1
 R10
-vseg0
-R1
+vdisplay_counter
+Z11 !s110 1486853855
 !i10b 1
-!s100 aNNMCT7:_N>Vk6BaJZ9`W1
-IkB9Q0<^63;MJm06@PXno^3
+!s100 UH8SCE0kn66YWcgE`[Gd12
+IVbl7_glL;?SUClMQSTVKC3
 R2
 R0
-R3
-R4
-R5
-L0 245
+Z12 w1486853850
+Z13 8rate_divider.v
+Z14 Frate_divider.v
+L0 137
 R6
 r1
 !s85 0
 31
-R7
-R8
-R9
+Z15 !s108 1486853855.000000
+Z16 !s107 rate_divider.v|
+Z17 !s90 -reportprogress|300|-timescale|1ns/1ns|rate_divider.v|
+!i113 1
+R10
+vrate_divider
+R11
+!i10b 1
+!s100 fR==9M@2=lmaA@UOdDooC3
+I5K=?bC=4QZPYiUnOL_:>e2
+R2
+R0
+R12
+R13
+R14
+L0 116
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+vrate_divider_wrapper
+R11
+!i10b 1
+!s100 k<4hnW;oCiVn<RE5:LkQz3
+IH5TC=0fRefJ83mO>9R2dS3
+R2
+R0
+R12
+R13
+R14
+L0 1
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+vrate_selector
+R11
+!i10b 1
+!s100 ?@;hkQ68noe7UQRb;gFh:2
+Il7Dj?8]EQj5j;M2n_Bc:62
+R2
+R0
+R12
+R13
+R14
+L0 96
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R10
+vseg0
+R11
+!i10b 1
+!s100 l]UB>m]8ZKdXen>oPe3<00
+IQnO;^<g:h]fJ]`22BdL^D1
+R2
+R0
+R12
+R13
+R14
+L0 154
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
 !i113 1
 R10
 vseg1
-R1
+R11
 !i10b 1
-!s100 bBFAja[Z80iL5^2G^=bm[3
-Ih<XmC>CI]5MRAPOS8A>`[2
+!s100 CG7SPRaf]GkBV_NPl5m:81
+IRQV;<ZihWhL3KWz4gH7<G3
 R2
 R0
-R3
-R4
-R5
-L0 255
+R12
+R13
+R14
+L0 164
 R6
 r1
 !s85 0
 31
-R7
-R8
-R9
+R15
+R16
+R17
 !i113 1
 R10
 vseg2
-R1
+R11
 !i10b 1
-!s100 MjTO6EV[;S5k;gk;XJOBY0
-Ik>3DJNS:9kE1k9m0k0?@>3
+!s100 i2DZjHGXhBHh7U<W5TW@J1
+Ic`m0E`N^B3zAFg;1R=zUT0
 R2
 R0
-R3
-R4
-R5
-L0 268
+R12
+R13
+R14
+L0 177
 R6
 r1
 !s85 0
 31
-R7
-R8
-R9
+R15
+R16
+R17
 !i113 1
 R10
 vseg3
-R1
+R11
 !i10b 1
-!s100 L<DJLPd;Fz2M[Z13I>D;]2
-I;8OXXS[>^HMaYeo@0<mB=0
+!s100 nkAki:]L^HS4J60FzIPmf0
+I3mMEBieMTebZ2QEo>QQ?20
 R2
 R0
-R3
-R4
-R5
-L0 279
+R12
+R13
+R14
+L0 188
 R6
 r1
 !s85 0
 31
-R7
-R8
-R9
+R15
+R16
+R17
 !i113 1
 R10
 vseg4
-R1
+R11
 !i10b 1
-!s100 ;79kF]MkK3`R<WE7HbSBR1
-Im>Uh^a:S1`UhBHjiiT9f12
+!s100 ThdiI4BTA`^ZKcInI;0Ec3
+IM9ME[zj:O]W8F;CD8jViZ3
 R2
 R0
-R3
-R4
-R5
-L0 291
+R12
+R13
+R14
+L0 200
 R6
 r1
 !s85 0
 31
-R7
-R8
-R9
+R15
+R16
+R17
 !i113 1
 R10
 vseg5
-R1
+R11
 !i10b 1
-!s100 A`XPLWc>33N6Z8>3=45c<3
-Im8mW?C65iMA48;DMzZ2M:2
+!s100 DWYH2el@_@F4`PoC>VVbc3
+IA1;aFYS@M??<6?Q^8NVjE2
 R2
 R0
-R3
-R4
-R5
-L0 302
+R12
+R13
+R14
+L0 211
 R6
 r1
 !s85 0
 31
-R7
-R8
-R9
+R15
+R16
+R17
 !i113 1
 R10
 vseg6
-R1
+R11
 !i10b 1
-!s100 Dm]5d:;@nG]=_fXA^fK6M0
-I^aTzNjf?7V_z]=A7Xbc450
+!s100 AbT^n9SUj[3oM^nHW?@2M0
+IQLOVTFD3ILR3U=oDKb8RO2
 R2
 R0
-R3
-R4
-R5
-L0 313
+R12
+R13
+R14
+L0 222
 R6
 r1
 !s85 0
 31
-R7
-R8
-R9
+R15
+R16
+R17
 !i113 1
 R10
 vtoggle
