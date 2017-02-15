@@ -1,0 +1,344 @@
+|counter
+SW[0] => Clear_b.IN8
+SW[1] => Enable.IN2
+KEY[0] => Clock.IN8
+HEX0[0] <= seg0:lower0.seg0
+HEX0[1] <= seg1:lower1.seg1
+HEX0[2] <= seg2:lower2.seg2
+HEX0[3] <= seg3:lower3.seg3
+HEX0[4] <= seg4:lower4.seg4
+HEX0[5] <= seg5:lower5.seg5
+HEX0[6] <= seg6:lower6.seg6
+HEX1[0] <= seg0:upper0.seg0
+HEX1[1] <= seg1:upper1.seg1
+HEX1[2] <= seg2:upper2.seg2
+HEX1[3] <= seg3:upper3.seg3
+HEX1[4] <= seg4:upper4.seg4
+HEX1[5] <= seg5:upper5.seg5
+HEX1[6] <= seg6:upper6.seg6
+
+
+|counter|toggle:q0
+t => q~reg0.ENA
+clock => q~reg0.CLK
+clear_b => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+not_q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|toggle:q1
+t => q~reg0.ENA
+clock => q~reg0.CLK
+clear_b => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+not_q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|toggle:q2
+t => q~reg0.ENA
+clock => q~reg0.CLK
+clear_b => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+not_q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|toggle:q3
+t => q~reg0.ENA
+clock => q~reg0.CLK
+clear_b => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+not_q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|toggle:q4
+t => q~reg0.ENA
+clock => q~reg0.CLK
+clear_b => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+not_q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|toggle:q5
+t => q~reg0.ENA
+clock => q~reg0.CLK
+clear_b => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+not_q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|toggle:q6
+t => q~reg0.ENA
+clock => q~reg0.CLK
+clear_b => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+not_q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|toggle:q7
+t => q~reg0.ENA
+clock => q~reg0.CLK
+clear_b => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+not_q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|and_gate:a0
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|and_gate:a1
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|and_gate:a2
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|and_gate:a3
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|and_gate:a4
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|and_gate:a5
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|and_gate:a6
+x => z.IN0
+y => z.IN1
+z <= z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg0:lower0
+c0 => seg0.IN1
+c0 => seg0.IN1
+c0 => seg0.IN1
+c0 => seg0.IN1
+c1 => seg0.IN1
+c1 => seg0.IN1
+c1 => seg0.IN1
+c1 => seg0.IN1
+c2 => seg0.IN0
+c2 => seg0.IN0
+c2 => seg0.IN0
+c2 => seg0.IN0
+c3 => seg0.IN1
+c3 => seg0.IN1
+c3 => seg0.IN1
+c3 => seg0.IN1
+seg0 <= seg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg1:lower1
+c0 => seg1.IN1
+c0 => seg1.IN1
+c0 => seg1.IN1
+c0 => seg1.IN1
+c1 => seg1.IN0
+c1 => seg1.IN0
+c1 => seg1.IN1
+c1 => seg1.IN1
+c1 => seg1.IN1
+c2 => seg1.IN0
+c2 => seg1.IN1
+c2 => seg1.IN0
+c3 => seg1.IN1
+c3 => seg1.IN1
+c3 => seg1.IN1
+seg1 <= seg1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg2:lower2
+c0 => seg2.IN1
+c0 => seg2.IN1
+c1 => seg2.IN1
+c1 => seg2.IN1
+c1 => seg2.IN1
+c2 => seg2.IN0
+c2 => seg2.IN0
+c3 => seg2.IN1
+c3 => seg2.IN1
+seg2 <= seg2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg3:lower3
+c0 => seg3.IN1
+c0 => seg3.IN1
+c0 => seg3.IN1
+c0 => seg3.IN1
+c1 => seg3.IN0
+c1 => seg3.IN1
+c1 => seg3.IN1
+c1 => seg3.IN1
+c2 => seg3.IN0
+c2 => seg3.IN1
+c2 => seg3.IN0
+c2 => seg3.IN0
+c3 => seg3.IN1
+c3 => seg3.IN1
+c3 => seg3.IN1
+seg3 <= seg3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg4:lower4
+c0 => seg4.IN0
+c0 => seg4.IN1
+c1 => seg4.IN0
+c1 => seg4.IN1
+c2 => seg4.IN0
+c2 => seg4.IN1
+c3 => seg4.IN1
+c3 => seg4.IN1
+seg4 <= seg4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg5:lower5
+c0 => seg5.IN1
+c0 => seg5.IN1
+c1 => seg5.IN0
+c1 => seg5.IN1
+c2 => seg5.IN0
+c3 => seg5.IN1
+c3 => seg5.IN1
+seg5 <= seg5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg6:lower6
+c0 => seg6.IN1
+c0 => seg6.IN1
+c1 => seg6.IN1
+c1 => seg6.IN1
+c1 => seg6.IN1
+c2 => seg6.IN0
+c2 => seg6.IN0
+c2 => seg6.IN0
+c3 => seg6.IN1
+c3 => seg6.IN1
+c3 => seg6.IN1
+seg6 <= seg6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg0:upper0
+c0 => seg0.IN1
+c0 => seg0.IN1
+c0 => seg0.IN1
+c0 => seg0.IN1
+c1 => seg0.IN1
+c1 => seg0.IN1
+c1 => seg0.IN1
+c1 => seg0.IN1
+c2 => seg0.IN0
+c2 => seg0.IN0
+c2 => seg0.IN0
+c2 => seg0.IN0
+c3 => seg0.IN1
+c3 => seg0.IN1
+c3 => seg0.IN1
+c3 => seg0.IN1
+seg0 <= seg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg1:upper1
+c0 => seg1.IN1
+c0 => seg1.IN1
+c0 => seg1.IN1
+c0 => seg1.IN1
+c1 => seg1.IN0
+c1 => seg1.IN0
+c1 => seg1.IN1
+c1 => seg1.IN1
+c1 => seg1.IN1
+c2 => seg1.IN0
+c2 => seg1.IN1
+c2 => seg1.IN0
+c3 => seg1.IN1
+c3 => seg1.IN1
+c3 => seg1.IN1
+seg1 <= seg1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg2:upper2
+c0 => seg2.IN1
+c0 => seg2.IN1
+c1 => seg2.IN1
+c1 => seg2.IN1
+c1 => seg2.IN1
+c2 => seg2.IN0
+c2 => seg2.IN0
+c3 => seg2.IN1
+c3 => seg2.IN1
+seg2 <= seg2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg3:upper3
+c0 => seg3.IN1
+c0 => seg3.IN1
+c0 => seg3.IN1
+c0 => seg3.IN1
+c1 => seg3.IN0
+c1 => seg3.IN1
+c1 => seg3.IN1
+c1 => seg3.IN1
+c2 => seg3.IN0
+c2 => seg3.IN1
+c2 => seg3.IN0
+c2 => seg3.IN0
+c3 => seg3.IN1
+c3 => seg3.IN1
+c3 => seg3.IN1
+seg3 <= seg3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg4:upper4
+c0 => seg4.IN0
+c0 => seg4.IN1
+c1 => seg4.IN0
+c1 => seg4.IN1
+c2 => seg4.IN0
+c2 => seg4.IN1
+c3 => seg4.IN1
+c3 => seg4.IN1
+seg4 <= seg4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg5:upper5
+c0 => seg5.IN1
+c0 => seg5.IN1
+c1 => seg5.IN0
+c1 => seg5.IN1
+c2 => seg5.IN0
+c3 => seg5.IN1
+c3 => seg5.IN1
+seg5 <= seg5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|seg6:upper6
+c0 => seg6.IN1
+c0 => seg6.IN1
+c1 => seg6.IN1
+c1 => seg6.IN1
+c1 => seg6.IN1
+c2 => seg6.IN0
+c2 => seg6.IN0
+c2 => seg6.IN0
+c3 => seg6.IN1
+c3 => seg6.IN1
+c3 => seg6.IN1
+seg6 <= seg6.DB_MAX_OUTPUT_PORT_TYPE
+
+
