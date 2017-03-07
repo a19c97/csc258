@@ -1,0 +1,1083 @@
+do sequence_detector.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:06:32 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns sequence_detector.v 
+# -- Compiling module sequence_detector
+# 
+# Top level modules:
+# 	sequence_detector
+# End time: 15:06:32 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sequence_detector 
+# Start time: 15:06:32 on Mar 07,2017
+# Loading work.sequence_detector
+do sequence_detector.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:11:13 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns sequence_detector.v 
+# -- Compiling module sequence_detector
+# 
+# Top level modules:
+# 	sequence_detector
+# End time: 15:11:13 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:11:14 on Mar 07,2017, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 0
+# vsim sequence_detector 
+# Start time: 15:11:14 on Mar 07,2017
+# Loading work.sequence_detector
+do sequence_detector.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:13:54 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns sequence_detector.v 
+# -- Compiling module sequence_detector
+# 
+# Top level modules:
+# 	sequence_detector
+# End time: 15:13:54 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:13:55 on Mar 07,2017, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 0
+# vsim sequence_detector 
+# Start time: 15:13:55 on Mar 07,2017
+# Loading work.sequence_detector
+do poly_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:16:07 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_functions.v 
+# ** Error: (vlog-7) Failed to open design unit file "poly_functions.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:16:07 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./poly_functions.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns poly_functions.v"
+do poly_functions.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:17:07 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_functions.v 
+# ** Error: (vlog-7) Failed to open design unit file "poly_functions.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:17:07 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./poly_functions.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns poly_functions.v"
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:19:02 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# ** Error: (vlog-13069) poly_function.v(124): near "=": syntax error, unexpected '='.
+# ** Error: poly_function.v(124): (vlog-13205) Syntax error found in the scope following 'S_CYCLE_3'. Is there a missing '::'?
+# End time: 15:19:03 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./poly_function.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns poly_function.v"
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:20:15 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# ** Error: poly_function.v(198): (vlog-2730) Undefined variable: 'alu_out'.
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# End time: 15:20:15 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./poly_function.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns poly_function.v"
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:20:56 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:20:56 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:20:57 on Mar 07,2017, Elapsed time: 0:07:02
+# Errors: 17, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:20:57 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:23:07 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:23:07 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:23:07 on Mar 07,2017, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:23:07 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:30:30 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:30:30 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:30:30 on Mar 07,2017, Elapsed time: 0:07:23
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:30:30 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+# Error in macro ./poly_function.do line 13
+# ** Error: (vsim-4012) Expected ',' separator between value/time pairs.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]
+#     while executing
+# "force {SW[1]} 0 0, 1 6, 0 10 1 14, 0 18"
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:31:42 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:31:42 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:31:43 on Mar 07,2017, Elapsed time: 0:01:13
+# Errors: 2, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:31:43 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:34:36 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:34:36 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:34:36 on Mar 07,2017, Elapsed time: 0:02:53
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:34:36 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+# ** Error: (vsim-3462) Value/time pairs must be listed in increasing time order.
+# Error in macro ./poly_function.do line 11
+# ** Error: (vsim-3462) Value/time pairs must be listed in increasing time order.
+# 
+#     while executing
+# "force {KEY[1]} 0 0, 1 7, 0 8, 1 11, 0 10, 1 11, 0 15, 1 19, 0 20"
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:35:08 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:35:08 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:35:08 on Mar 07,2017, Elapsed time: 0:00:32
+# Errors: 1, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:35:08 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:36:02 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:36:02 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:36:03 on Mar 07,2017, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:36:03 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:40:34 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:40:35 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:40:35 on Mar 07,2017, Elapsed time: 0:04:32
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:40:35 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:42:16 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:42:17 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:42:17 on Mar 07,2017, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:42:17 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:43:34 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:43:34 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:43:34 on Mar 07,2017, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:43:34 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:44:36 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:44:36 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:44:36 on Mar 07,2017, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:44:36 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:46:10 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:46:10 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:46:10 on Mar 07,2017, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:46:10 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:48:28 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:48:28 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:48:28 on Mar 07,2017, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:48:28 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:52:05 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:52:05 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:52:05 on Mar 07,2017, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:52:05 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:54:09 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:54:10 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:54:10 on Mar 07,2017, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:54:10 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:55:13 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:55:13 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:55:13 on Mar 07,2017, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:55:13 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:55:34 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:55:35 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:55:35 on Mar 07,2017, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:55:35 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:55:55 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:55:56 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:55:56 on Mar 07,2017, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:55:56 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:57:38 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 15:57:38 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:57:39 on Mar 07,2017, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 15:57:39 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:00:03 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:00:04 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:00:04 on Mar 07,2017, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:00:04 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:03:22 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:03:23 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:03:23 on Mar 07,2017, Elapsed time: 0:03:19
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:03:23 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:03:49 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:03:49 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:03:49 on Mar 07,2017, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:03:49 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:04:37 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:04:37 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:04:38 on Mar 07,2017, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:04:38 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:06:02 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:06:02 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:06:02 on Mar 07,2017, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:06:02 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do sample.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:13:52 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns sample.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:13:52 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:13:53 on Mar 07,2017, Elapsed time: 0:07:51
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:13:53 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do sample.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:15:28 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns sample.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:15:29 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:15:29 on Mar 07,2017, Elapsed time: 0:01:36
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:15:29 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do sample.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:22:59 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns sample.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:22:59 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:22:59 on Mar 07,2017, Elapsed time: 0:07:30
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:22:59 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:24:25 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:24:25 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:24:25 on Mar 07,2017, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:24:25 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:25:18 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:25:18 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:25:19 on Mar 07,2017, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:25:19 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:25:51 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:25:51 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:25:51 on Mar 07,2017, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:25:51 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:26:18 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:26:18 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:26:18 on Mar 07,2017, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:26:18 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:27:06 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:27:06 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:27:06 on Mar 07,2017, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:27:06 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:28:49 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:28:50 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:28:50 on Mar 07,2017, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:28:50 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:08 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:31:09 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:31:09 on Mar 07,2017, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:31:09 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:31:55 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:31:56 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:31:56 on Mar 07,2017, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:31:56 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:10 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:32:11 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:32:12 on Mar 07,2017, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:32:12 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:32:40 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:32:40 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:32:40 on Mar 07,2017, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:32:40 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:33:15 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:33:16 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:33:16 on Mar 07,2017, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:33:16 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:34:07 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:34:07 on Mar 07,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:34:08 on Mar 07,2017, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:34:08 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+do poly_function.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:34:55 on Mar 07,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns poly_function.v 
+# -- Compiling module fpga_top
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	fpga_top
+# End time: 16:34:56 on Mar 07,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:34:56 on Mar 07,2017, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim fpga_top 
+# Start time: 16:34:56 on Mar 07,2017
+# Loading work.fpga_top
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# Loading work.hex_decoder
+# End time: 16:35:27 on Mar 07,2017, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0

@@ -5,13 +5,13 @@ log {/*}
 add wave {/*}
 
 #first test case
-force {KEY[0]} 0 0, 1 1 -repeat 2
-force {SW[1]} 0 0, 1 4, 1 5, 1 6, 1 7
-force {SW[0]} 0 0, 1 2 
-run 10ns
+#force {KEY[0]} 0 0, 1 1 -repeat 2
+#force {SW[1]} 0 0, 1 4
+#force {SW[0]} 0 0, 1 2 
+#run 20ns
 
-#first test case
+#second test case
 force {KEY[0]} 0 0, 1 1 -repeat 2
-force {SW[1]} 0 0, 1 4, 1 5, 0 6, 1 7
+force {SW[1]} 0 0, 1 4, 1 6, 0 8, 1 10, 1 12
 force {SW[0]} 0 0, 1 2 
-run 10ns
+run 20ns
