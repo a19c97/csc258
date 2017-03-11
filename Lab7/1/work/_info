@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/h/u12/c5/00/chenqi38/csc258/Lab7/1
+vhex_decoder
+Z1 !s110 1489272159
+!i10b 1
+!s100 X@Yf^G8g`_cOYH31^hgI^0
+ILYDPRGWT92b@7kF:za4o[3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1489272093
+Z4 8ram32x4.v
+Z5 Fram32x4.v
+L0 213
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1489272159.000000
+Z8 !s107 ram32x4.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|ram32x4.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+vram32x4
+R1
+!i10b 1
+!s100 =nzDUiajFQ:L]H=W^o9>N1
+INEN3XY6mP_>Oo9[UaMg:d1
+R2
+R0
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vram_wrapper
+R1
+!i10b 1
+!s100 hR_4hD@jJEA3K>DMQh6mh1
+IeVJ:P^cDMI6cf^06n4Z550
+R2
+R0
+R3
+R4
+R5
+L0 36
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

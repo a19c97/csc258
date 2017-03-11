@@ -1,0 +1,151 @@
+do ram_wrapper.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:39:26 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns ram32x4.v 
+# -- Compiling module ram_wrapper
+# ** Error: (vlog-13069) ram32x4.v(40): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: ram32x4.v(48): (vlog-2730) Undefined variable: 'KEY'.
+# ** Error: ram32x4.v(37): Identifier must be declared with a port mode: KEY.
+# ** Error: ram32x4.v(37): Identifier must be declared with a port mode: HEX0.
+# ** Error: ram32x4.v(37): Identifier must be declared with a port mode: HEX2.
+# ** Error: ram32x4.v(37): Identifier must be declared with a port mode: HEX4.
+# ** Error: ram32x4.v(37): Identifier must be declared with a port mode: HEX5.
+# -- Compiling module ram32x4
+# -- Compiling module hex_decoder
+# End time: 17:39:26 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ram_wrapper.do line 3
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns ram32x4.v"
+do ram_wrapper.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:41:08 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns ram32x4.v 
+# -- Compiling module ram_wrapper
+# ** Error: (vlog-13069) ram32x4.v(38): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: ram32x4.v(46): (vlog-2730) Undefined variable: 'KEY'.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: KEY.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: HEX0.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: HEX2.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: HEX4.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: HEX5.
+# -- Compiling module ram32x4
+# -- Compiling module hex_decoder
+# End time: 17:41:08 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ram_wrapper.do line 3
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns ram32x4.v"
+do ram_wrapper.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:41:16 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns ram32x4.v 
+# -- Compiling module ram_wrapper
+# ** Error: (vlog-13069) ram32x4.v(38): near "input": syntax error, unexpected input, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: ram32x4.v(46): (vlog-2730) Undefined variable: 'KEY'.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: KEY.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: HEX0.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: HEX2.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: HEX4.
+# ** Error: ram32x4.v(36): Identifier must be declared with a port mode: HEX5.
+# -- Compiling module ram32x4
+# -- Compiling module hex_decoder
+# End time: 17:41:16 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./ram_wrapper.do line 3
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns ram32x4.v"
+do ram_wrapper.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:41:35 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns ram32x4.v 
+# -- Compiling module ram_wrapper
+# -- Compiling module ram32x4
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	ram_wrapper
+# End time: 17:41:35 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L altera_mf_ver ram32x4 
+# Start time: 17:41:35 on Mar 11,2017
+# Loading work.ram32x4
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# WARNING: No extended dataflow license exists
+# ** Error: evaluating expression "KEY[0]"
+# No object found matching "KEY".
+# Error in macro ./ram_wrapper.do line 8
+# evaluating expression "KEY[0]"
+# No object found matching "KEY".
+# 
+#     while executing
+# "force {KEY[0]} 0 0, 1 1 -repeat 2"
+do ram_wrapper.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:42:23 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns ram32x4.v 
+# -- Compiling module ram_wrapper
+# -- Compiling module ram32x4
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	ram_wrapper
+# End time: 17:42:23 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:42:23 on Mar 11,2017, Elapsed time: 0:00:48
+# Errors: 2, Warnings: 1
+# vsim -L altera_mf_ver ram_wrapper 
+# Start time: 17:42:23 on Mar 11,2017
+# Loading work.ram_wrapper
+# Loading work.ram32x4
+# Loading altera_mf_ver.altsyncram
+# Loading work.hex_decoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ram32x4.v(62): [PCDPC] - Port size (4) does not match connection size (1) for port 'hex_digit'. The port definition is at: ram32x4.v(213).
+#    Time: 0 ps  Iteration: 0  Instance: /ram_wrapper/H5 File: ram32x4.v
+# WARNING: No extended dataflow license exists
+do ram_wrapper.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:42:39 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns ram32x4.v 
+# -- Compiling module ram_wrapper
+# -- Compiling module ram32x4
+# -- Compiling module hex_decoder
+# 
+# Top level modules:
+# 	ram_wrapper
+# End time: 17:42:39 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:42:40 on Mar 11,2017, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 2
+# vsim -L altera_mf_ver ram_wrapper 
+# Start time: 17:42:40 on Mar 11,2017
+# Loading work.ram_wrapper
+# Loading work.ram32x4
+# Loading altera_mf_ver.altsyncram
+# Loading work.hex_decoder
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) ram32x4.v(62): [PCDPC] - Port size (4) does not match connection size (1) for port 'hex_digit'. The port definition is at: ram32x4.v(213).
+#    Time: 0 ps  Iteration: 0  Instance: /ram_wrapper/H5 File: ram32x4.v
+# WARNING: No extended dataflow license exists
+# End time: 17:43:25 on Mar 11,2017, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 2
