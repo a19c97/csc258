@@ -103,49 +103,47 @@ module part2
 endmodule
 
 module control(
-	input clk,
+    input clk,
     input resetn,
     input go,
     input load,
     
-	output reg ld_x, ld_y, incr
+    output reg ld_x, ld_y, incr
 );
 	
 	reg [4:0] current_state, next_state; 
 	
 	localparam 
-	S_LOAD_X = 5'd0;
-	S_LOAD_X_WAIT = 5'd1;
-	S_LOAD_Y = 5'd2;
-	S_LOAD_Y_WAIT = 5'd3;
-	S_LOAD_C = 5'd4;
-	S_LOAD_C_WAIT = 5'd5;
-	S_CYCLE_0 = 5'd6;
-	S_CYCLE_1 = 5'd7;
-	S_CYCLE_2 = 5'd8;
-	S_CYCLE_3 = 5'd9;
-	S_CYCLE_4 = 5'd10;
-	S_CYCLE_5 = 5'd11;
-	S_CYCLE_6 = 5'd12;
-	S_CYCLE_7 = 5'd13;
-	S_CYCLE_8 = 5'd14;
-	S_CYCLE_9 = 5'd15;
-	S_CYCLE_10 = 5'd16;
-	S_CYCLE_11 = 5'd17;
-	S_CYCLE_12 = 5'd18;
-	S_CYCLE_13 = 5'd19;
-	S_CYCLE_14 = 5'd20;
+	S_LOAD_X = 5'd0,
+	S_LOAD_X_WAIT = 5'd1,
+	S_LOAD_Y = 5'd2,
+	S_LOAD_Y_WAIT = 5'd3,
+	S_CYCLE_0 = 5'd6,
+	S_CYCLE_1 = 5'd7,
+	S_CYCLE_2 = 5'd8,
+	S_CYCLE_3 = 5'd9,
+	S_CYCLE_4 = 5'd10,
+	S_CYCLE_5 = 5'd11,
+	S_CYCLE_6 = 5'd12,
+	S_CYCLE_7 = 5'd13,
+	S_CYCLE_8 = 5'd14,
+	S_CYCLE_9 = 5'd15,
+	S_CYCLE_10 = 5'd16,
+	S_CYCLE_11 = 5'd17,
+	S_CYCLE_12 = 5'd18,
+	S_CYCLE_13 = 5'd19,
+	S_CYCLE_14 = 5'd20,
 	S_CYCLE_15 = 5'd21;
 	
-	always@(*)
+    always@(*)
     begin: state_table 
         case (current_state)
             S_LOAD_X: next_state = load ? S_LOAD_X_WAIT : S_LOAD_X; 
             S_LOAD_X_WAIT: next_state = load ? S_LOAD_X_WAIT : S_LOAD_Y;
             S_LOAD_Y: next_state = load ? S_LOAD_Y_WAIT : S_LOAD_Y;
-            S_LOAD_Y_WAIT: next_state = load ? S_LOAD_Y_WAIT : S_CYCLE_0;
+            S_LOAD_Y_WAIT: next_state = go ? S_CYCLE_0 : S_LOAD_Y_WAIT;
             S_CYCLE_0: next_state = S_CYCLE_1;
-			S_CYCLE_1: next_state = S_CYCLE_2;
+	    S_CYCLE_1: next_state = S_CYCLE_2;
             S_CYCLE_2: next_state = S_CYCLE_3;
             S_CYCLE_3: next_state = S_CYCLE_4;
             S_CYCLE_4: next_state = S_CYCLE_5;
@@ -170,7 +168,7 @@ module control(
     	ld_y = 1'b0;
     	incr = 1'b0;
     	case (current_state)
-    		S_LOAD_X: begin
+    	    S_LOAD_X: begin
                 ld_x = 1'b1;
             end
             S_LOAD_Y: begin
@@ -195,7 +193,7 @@ module datapath(
 	input clk,
 	input resetn,
 	input [6:0] data_in,
-	input ld_x, ld_y, incr
+	input ld_x, ld_y, incr,
 	
 	output reg [7:0] X,
 	output reg [6:0] Y
@@ -204,32 +202,37 @@ module datapath(
 	reg [7:0] X_init;
 	reg [6:0] Y_init;
 	reg [3:0] counter;
-	counter <= 4'b0000;
 	
 	// loading inputs
 	always @ (posedge clk) begin
-        if (!resetn) begin
-			X <= 8'd0;
-			Y <= 7'd0;
-			X_init <= 8'd0;
-			Y_init <= 7'd0;
+        if (!resetn) 
+	begin
+		X <= 8'd0;
+		Y <= 7'd0;
+		X_init <= 8'd0;
+		Y_init <= 7'd0;
+		counter <= 4'd0;
         end
         else begin
             if (ld_x)
+	    	begin
                 X <= {1'b0, data_in};
                 X_init <= {1'b0, data_in};
+		end
             if (ld_y)
+	    	begin
             	Y <= data_in;
             	Y_init <= data_in;
+		end
         end
     end
     
     // incrementing counter
     always @(posedge clk)
-    begin: counter
+    begin: counter_incr
     	if (incr)
-    		counnter <= counter + 1;
-    end
+    		counter <= counter + 1;
+    end // counter_incr
     
 	// incrementing X and Y
 	always @(*)

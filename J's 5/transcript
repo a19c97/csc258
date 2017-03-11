@@ -1,0 +1,45 @@
+do morse_wrapper.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:03:12 on Feb 15,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns morse_wrapper.v 
+# -- Compiling module morse_wrapper
+# -- Compiling module morse
+# -- Compiling module rate_divider_2hz
+# -- Compiling module mux7to1
+# -- Compiling module shift_register
+# -- Compiling module shifter_bit
+# -- Compiling module mux2to1
+# -- Compiling module flipflop
+# 
+# Top level modules:
+# 	morse_wrapper
+# End time: 20:03:13 on Feb 15,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim morse_wrapper 
+# Start time: 20:03:13 on Feb 15,2017
+# Loading work.morse_wrapper
+# Loading work.morse
+# Loading work.rate_divider_2hz
+# Loading work.mux7to1
+# Loading work.shift_register
+# Loading work.shifter_bit
+# Loading work.mux2to1
+# Loading work.flipflop
+# ** Warning: (vsim-3015) morse_wrapper.v(27): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: morse_wrapper.v(56).
+#    Time: 0 ns  Iteration: 0  Instance: /morse_wrapper/main_morse/rate_divider File: morse_wrapper.v
+# ** Warning: (vsim-3015) morse_wrapper.v(123): [PCDPC] - Port size (1) does not match connection size (32) for port 'in'. The port definition is at: morse_wrapper.v(286).
+#    Time: 0 ns  Iteration: 0  Instance: /morse_wrapper/main_morse/shifter/shifter_bit_0 File: morse_wrapper.v
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: chenqi38  Hostname: wolf  ProcessID: 51312
+#           Attempting to use alternate WLF file "./wlftRQBqXe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftRQBqXe
+# FATAL ERROR: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 20:08:13 on Feb 15,2017, Elapsed time: 0:05:00
+# Errors: 4, Warnings: 4

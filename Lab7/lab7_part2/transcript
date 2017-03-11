@@ -1,0 +1,256 @@
+do datapath_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:44:35 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(239): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 15:44:35 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim datapath 
+# Start time: 15:44:35 on Mar 11,2017
+# Loading work.datapath
+# WARNING: No extended dataflow license exists
+do datapath_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:49:16 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(239): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 15:49:16 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 15:49:17 on Mar 11,2017, Elapsed time: 0:04:42
+# Errors: 0, Warnings: 2
+# vsim datapath 
+# Start time: 15:49:17 on Mar 11,2017
+# Loading work.datapath
+# WARNING: No extended dataflow license exists
+do datapath_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:51:57 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(240): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 15:51:57 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 15:51:58 on Mar 11,2017, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 2
+# vsim datapath 
+# Start time: 15:51:58 on Mar 11,2017
+# Loading work.datapath
+# WARNING: No extended dataflow license exists
+do datapath_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:52:59 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(240): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 15:52:59 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 15:53:00 on Mar 11,2017, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 2
+# vsim datapath 
+# Start time: 15:53:00 on Mar 11,2017
+# Loading work.datapath
+# WARNING: No extended dataflow license exists
+do datapath_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:56:37 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(240): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 15:56:37 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 15:56:37 on Mar 11,2017, Elapsed time: 0:03:37
+# Errors: 0, Warnings: 2
+# vsim datapath 
+# Start time: 15:56:37 on Mar 11,2017
+# Loading work.datapath
+# WARNING: No extended dataflow license exists
+do datapath_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:57:20 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(239): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 15:57:20 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 15:57:21 on Mar 11,2017, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 2
+# vsim datapath 
+# Start time: 15:57:21 on Mar 11,2017
+# Loading work.datapath
+# WARNING: No extended dataflow license exists
+do datapath_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 15:59:50 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Error: (vlog-13069) part2.v(220): near "else": syntax error, unexpected else.
+# ** Warning: part2.v(239): (vlog-2283) Extra semicolon in $unit (global) scope.
+# End time: 15:59:50 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# ** Error: /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./datapath_sim.do line 2
+# /s/appspace/quartus-16.0.0.211/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns part2.v"
+do datapath_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:01:18 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(243): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 16:01:18 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:01:18 on Mar 11,2017, Elapsed time: 0:03:57
+# Errors: 4, Warnings: 3
+# vsim datapath 
+# Start time: 16:01:18 on Mar 11,2017
+# Loading work.datapath
+# WARNING: No extended dataflow license exists
+do control_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:05:19 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(243): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 16:05:19 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:05:20 on Mar 11,2017, Elapsed time: 0:04:02
+# Errors: 0, Warnings: 2
+# vsim control 
+# Start time: 16:05:20 on Mar 11,2017
+# Loading work.control
+do control_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:10:14 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(243): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 16:10:14 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:10:21 on Mar 11,2017, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 1
+# vsim control 
+# Start time: 16:10:21 on Mar 11,2017
+# Loading work.control
+# WARNING: No extended dataflow license exists
+do control_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:16:16 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(243): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 16:16:16 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:16:18 on Mar 11,2017, Elapsed time: 0:05:57
+# Errors: 0, Warnings: 2
+# vsim control 
+# Start time: 16:16:18 on Mar 11,2017
+# Loading work.control
+# WARNING: No extended dataflow license exists
+do control_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:19:11 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(243): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 16:19:11 on Mar 11,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# End time: 16:19:12 on Mar 11,2017, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 2
+# vsim control 
+# Start time: 16:19:12 on Mar 11,2017
+# Loading work.control
+# WARNING: No extended dataflow license exists
+do control_sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:19:30 on Mar 11,2017
+# vlog -reportprogress 300 -timescale 1ns/1ns part2.v 
+# -- Compiling module part2
+# -- Compiling module control
+# -- Compiling module datapath
+# ** Warning: part2.v(243): (vlog-2283) Extra semicolon in $unit (global) scope.
+# 
+# Top level modules:
+# 	part2
+# End time: 16:19:31 on Mar 11,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# End time: 16:19:31 on Mar 11,2017, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 2
+# vsim control 
+# Start time: 16:19:31 on Mar 11,2017
+# Loading work.control
+# WARNING: No extended dataflow license exists
+# End time: 16:21:22 on Mar 11,2017, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 1
