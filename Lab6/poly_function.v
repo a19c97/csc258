@@ -187,17 +187,17 @@ module control(
                 alu_select_b = 2'b10; // Select register C
                 alu_op = 1'b0; // Do Add operation
             end */
-	    S_CYCLE_0: begin // Do B <- B*x
+	    	S_CYCLE_0: begin // Do B <- B*x
             	ld_alu_out = 1'b1;
             	ld_b = 1'b1;
             	alu_select_a = 2'b01; // select B
             	alu_select_b = 2'b11; // select x
             	alu_op = 1'b1; // Do multiplication operation
-	    end
+	    	end
             S_CYCLE_1: begin // Do x <- x*x
             	ld_alu_out = 1'b1;
             	ld_x = 1'b1; 
-		ld_b = 1'b0;
+				ld_b = 1'b0;
             	alu_select_a = 2'b11; // select x
             	alu_select_b = 2'b11; // select x
             	alu_op = 1'b1; // Do multiplication operation
