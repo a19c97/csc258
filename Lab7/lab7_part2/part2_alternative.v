@@ -48,6 +48,7 @@ module part2
 	assign go = ~KEY[1];
 	wire load;
 	assign load = ~KEY[3];
+	wire finished_drawing;
 
 	// Create an Instance of a VGA controller - there can be only one!
 	// Define the number of colours as well as the initial background
@@ -85,6 +86,8 @@ module part2
 		.data_in(SW[6:0]),
 		.ld_x(ld_x),
 		.ld_y(ld_y),
+		.finished_drawing(finished_drawing),
+		
 		.X(x),
 		.Y(y)
 	);
@@ -95,9 +98,11 @@ module part2
     	.reset(resetn),
     	.go(go),
     	.load(load),
+    	.finished_drawing(finished_drawing),
     	
     	.ld_x(ld_x),
-    	.ld_y(ld_y)
+    	.ld_y(ld_y),
+    	.writeEn(writeEn)
     );
     
 endmodule
@@ -107,8 +112,9 @@ module control(
     input resetn,
     input go,
     input load,
+    input finished_drawing,
     
-    output reg ld_x, ld_y, incr
+    output reg ld_x, ld_y, incr, writeEn
 );
 	
 	reg [4:0] current_state, next_state; 
@@ -118,22 +124,7 @@ module control(
 	S_LOAD_X_WAIT = 5'd1,
 	S_LOAD_Y = 5'd2,
 	S_LOAD_Y_WAIT = 5'd3,
-	S_CYCLE_0 = 5'd6,
-	S_CYCLE_1 = 5'd7,
-	S_CYCLE_2 = 5'd8,
-	S_CYCLE_3 = 5'd9,
-	S_CYCLE_4 = 5'd10,
-	S_CYCLE_5 = 5'd11,
-	S_CYCLE_6 = 5'd12,
-	S_CYCLE_7 = 5'd13,
-	S_CYCLE_8 = 5'd14,
-	S_CYCLE_9 = 5'd15,
-	S_CYCLE_10 = 5'd16,
-	S_CYCLE_11 = 5'd17,
-	S_CYCLE_12 = 5'd18,
-	S_CYCLE_13 = 5'd19,
-	S_CYCLE_14 = 5'd20,
-	S_CYCLE_15 = 5'd21;
+	S_DRAW = 5'd6,
 	
     always@(*)
     begin: state_table 
@@ -142,22 +133,7 @@ module control(
             S_LOAD_X_WAIT: next_state = load ? S_LOAD_X_WAIT : S_LOAD_Y;
             S_LOAD_Y: next_state = load ? S_LOAD_Y_WAIT : S_LOAD_Y;
             S_LOAD_Y_WAIT: next_state = go ? S_CYCLE_0 : S_LOAD_Y_WAIT;
-            S_CYCLE_0: next_state = S_CYCLE_1;
-	    	S_CYCLE_1: next_state = S_CYCLE_2;
-            S_CYCLE_2: next_state = S_CYCLE_3;
-            S_CYCLE_3: next_state = S_CYCLE_4;
-            S_CYCLE_4: next_state = S_CYCLE_5;
-            S_CYCLE_5: next_state = S_CYCLE_6;
-            S_CYCLE_6: next_state = S_CYCLE_7;
-            S_CYCLE_7: next_state = S_CYCLE_8;
-            S_CYCLE_8: next_state = S_CYCLE_9;
-            S_CYCLE_9: next_state = S_CYCLE_10;
-            S_CYCLE_10: next_state = S_CYCLE_11;
-            S_CYCLE_11: next_state = S_CYCLE_12;
-            S_CYCLE_12: next_state = S_CYCLE_13;
-            S_CYCLE_13: next_state = S_CYCLE_14;
-            S_CYCLE_14: next_state = S_CYCLE_15;
-            S_CYCLE_15: next_state = S_LOAD_X;
+            S_DRAW: next_state = finished_drawing ? S_DRAW : S_LOAD_X;
         	default: next_state = S_LOAD_X;
         endcase
     end // state_table
@@ -167,6 +143,7 @@ module control(
     	ld_x = 1'b0;
     	ld_y = 1'b0;
     	incr = 1'b0;
+    	writeEn = 1'b0;
     	case (current_state)
     	    S_LOAD_X: begin
                 ld_x = 1'b1;
@@ -174,53 +151,9 @@ module control(
             S_LOAD_Y: begin
                 ld_y = 1'b1;
             end
-            S_CYCLE_0: begin
+            S_DRAW: begin
             	incr = 1'b1;
-            end
-            S_CYCLE_1: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_2: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_3: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_4: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_5: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_6: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_7: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_8: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_9: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_10: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_11: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_12: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_13: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_14: begin
-            	incr = 1'b1;
-            end
-            S_CYCLE_15: begin
-            	incr = 1'b1;
+            	writeEn = 1'b1;
             end
     	endcase
     end // enable_signals
@@ -241,7 +174,8 @@ module datapath(
 	input ld_x, ld_y, incr,
 	
 	output reg [7:0] X,
-	output reg [6:0] Y
+	output reg [6:0] Y,
+	output reg finished_drawing
 );
 
 	reg [7:0] X_init;
@@ -251,12 +185,13 @@ module datapath(
 	// loading inputs
 	always @ (posedge clk) begin
         if (!resetn) 
-	begin
+		begin
 		X <= 8'd0;
 		Y <= 7'd0;
 		X_init <= 8'd0;
 		Y_init <= 7'd0;
 		counter <= 4'd0;
+		finished_drawing <= 1'b0;
         end
         else begin
             if (ld_x)
@@ -277,6 +212,8 @@ module datapath(
     begin: counter_incr
     	if (incr)
     		counter <= counter + 1;
+    		if (counter == 0)
+    			finished_drawing <= 1'b1;
     end // counter_incr
     
 	// incrementing X and Y
