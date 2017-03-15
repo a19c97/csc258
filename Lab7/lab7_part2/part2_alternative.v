@@ -124,7 +124,7 @@ module control(
 	S_LOAD_X_WAIT = 5'd1,
 	S_LOAD_Y = 5'd2,
 	S_LOAD_Y_WAIT = 5'd3,
-	S_DRAW = 5'd6,
+	S_DRAW = 5'd4;
 	
     always@(*)
     begin: state_table 
@@ -132,9 +132,9 @@ module control(
             S_LOAD_X: next_state = load ? S_LOAD_X_WAIT : S_LOAD_X; 
             S_LOAD_X_WAIT: next_state = load ? S_LOAD_X_WAIT : S_LOAD_Y;
             S_LOAD_Y: next_state = load ? S_LOAD_Y_WAIT : S_LOAD_Y;
-            S_LOAD_Y_WAIT: next_state = go ? S_CYCLE_0 : S_LOAD_Y_WAIT;
-            S_DRAW: next_state = finished_drawing ? S_DRAW : S_LOAD_X;
-        	default: next_state = S_LOAD_X;
+            S_LOAD_Y_WAIT: next_state = go ? S_DRAW : S_LOAD_Y_WAIT;
+            S_DRAW: next_state = finished_drawing ? S_LOAD_X : S_DRAW;
+            default: next_state = S_LOAD_X;
         endcase
     end // state_table
     
@@ -194,6 +194,7 @@ module datapath(
 		finished_drawing <= 1'b0;
         end
         else begin
+	    finished_drawing <= 1'b0;
             if (ld_x)
 	    	begin
                 X <= {1'b0, data_in};
@@ -214,6 +215,8 @@ module datapath(
     		counter <= counter + 1;
     		if (counter == 0)
     			finished_drawing <= 1'b1;
+		else 
+			finished_drawing <= 1'b0;
     end // counter_incr
     
 	// incrementing X and Y
