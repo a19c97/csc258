@@ -48,6 +48,7 @@ module part2
 	assign go = ~KEY[1];
 	wire load;
 	assign load = ~KEY[3];
+	wire incr;
 
 	// Create an Instance of a VGA controller - there can be only one!
 	// Define the number of colours as well as the initial background
@@ -86,7 +87,8 @@ module part2
 		.ld_x(ld_x),
 		.ld_y(ld_y),
 		.X(x),
-		.Y(y)
+		.Y(y),
+		.incr(incr)
 	);
 
     // Instansiate FSM control
@@ -97,7 +99,9 @@ module part2
     	.load(load),
     	
     	.ld_x(ld_x),
-    	.ld_y(ld_y)
+    	.ld_y(ld_y),
+    	.writeEn(writeEn),
+    	.incr(incr)
     );
     
 endmodule
@@ -167,6 +171,7 @@ module control(
     	ld_x = 1'b0;
     	ld_y = 1'b0;
     	incr = 1'b0;
+    	writeEn = 1'b0;
     	case (current_state)
     	    S_LOAD_X: begin
                 ld_x = 1'b1;
@@ -176,51 +181,67 @@ module control(
             end
             S_CYCLE_0: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_1: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_2: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_3: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_4: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_5: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_6: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_7: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_8: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_9: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_10: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_11: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_12: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_13: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_14: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
             S_CYCLE_15: begin
             	incr = 1'b1;
+            	writeEn = 1'b1;
             end
     	endcase
     end // enable_signals

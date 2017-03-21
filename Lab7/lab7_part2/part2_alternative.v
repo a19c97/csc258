@@ -225,4 +225,4 @@ module datapath(
 		X <= X_init + counter[1:0];
 		Y <= Y_init + counter[3:2];
 	end // increment
-endmodule;
+endmodule
